@@ -28,8 +28,8 @@ const Home1 = (props) => {
       <LatestProjectsSlider projects={props.projects} />
       <HowItWorksSection />
       <SkillsSection />
-      <Divider />
-      <LatestPostsSlider posts={props.posts} />
+      {/* <Divider /> */}
+      {/* <LatestPostsSlider posts={props.posts} /> */}
       <TestimonialSlider />
       <ContactSection />
     </Layouts>

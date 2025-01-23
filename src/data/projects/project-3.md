@@ -1,9 +1,8 @@
 ---
 #preview
-title: Easy & Most Powerful Server Platform.
+title: Aero Star Aviation.
 image: img/projects/3.jpg
-author: Roy Bricks
-short: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+short: A trusted platform delivering top-notch aviation services, tailored solutions, and seamless experiences for all your aviation needs.
 
 #full details
 

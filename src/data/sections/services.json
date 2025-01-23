@@ -7,19 +7,19 @@
                 "num": "01",
                 "name": "Dedicated Team",
                 "icon": "img/icons/md/1.svg",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "text": "Our dedicated team of travel technology experts works closely with you to provide bespoke solutions tailored to your business needs. From development to maintenance, our team ensures you receive ongoing support to keep your systems running smoothly and effectively."
             },
             {
                 "num": "02",
                 "name": "QA and Testing",
                 "icon": "img/icons/md/2.svg",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "text": "Quality assurance and testing are critical for ensuring your travel technology solutions perform flawlessly. Our expert QA team rigorously tests every aspect of your platform, ensuring reliability, security, and seamless user experience."
             },
             {
                 "num": "03",
-                "name": "SaaS",
+                "name": "SaaS (Software as a Service)",
                 "icon": "img/icons/md/3.svg",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "text": "Our SaaS solutions offer flexible, cloud-based platforms that enable you to streamline operations, reduce costs, and scale quickly. Focus on your core business while we handle the technical complexities."
             }
         ]
     },
@@ -28,21 +28,21 @@
         "items": [
             {
                 "num": "04",
-                "name": "Blockchain",
+                "name": "White Label B2B Solution",
                 "icon": "img/icons/md/4.svg",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "text": "Our White label B2B solution lets you offer a fully branded travel platform to your partners. Deliver a seamless experience while we handle the back-end integrations, allowing you to focus on growing your business."
             },
             {
                 "num": "05",
-                "name": "Artificial Intelligence",
+                "name": "NDC-Enabled Platform",
                 "icon": "img/icons/md/5.svg",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "text": "Stay ahead of the curve with our NDC-enabled platform, designed to provide access to the latest airline content. Our platform integrates NDC-certified carriers, allowing you to offer a wider range of products and services."
             },
             {
                 "num": "06",
-                "name": "Internet of Things",
+                "name": "Content API",
                 "icon": "img/icons/md/6.svg",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "text": "Our Content API provides a single point of integration to access a vast array of global travel content, including NDSC-certified carriers. This flexible API offers fast, real-time access to inventory, making it easy to enhance your offerings with minimal effort."
             }
         ]
     }

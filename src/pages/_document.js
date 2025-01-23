@@ -8,16 +8,17 @@ class MyDocument extends Document {
           {/* meta begin */}
           <meta charSet="UTF-8" />
           <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
+          <meta name="theme-color" content="#62AF31" />
           {/* meta end */}
 
-          {/* favicon begin */}
-          <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-touch-icon.png" />
-          <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
-          <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+          {/* favicon begin */}        
+          <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+          <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+          <link rel="shortcut icon" href="favicon/favicon.ico" />
+          <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+          <meta name="apple-mobile-web-app-title" content="skyXhub" />
           <link rel="manifest" href="favicon/site.webmanifest" />
-          <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5" />
-          <meta name="msapplication-TileColor" content="#da532c" />
-          <meta name="theme-color" content="#ffffff" />
+
           {/* favicon */}
 
           {/* public assets begin */}

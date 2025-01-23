@@ -27,7 +27,7 @@ const Portfolio = () => {
                     <i className="fas fa-plus" />
                   </span>
                 </div>
-                <span className="mil-dark">See More</span>
+                <span className="mil-light-soft">See More</span>
               </Link>
             </div>
           </div>
@@ -50,7 +50,7 @@ const Portfolio = () => {
                     <i className="fas fa-plus" />
                   </span>
                 </div>
-                <span className="mil-dark">See More</span>
+                <span className="mil-light-soft">See More</span>
               </Link>
             </div>
           </div>
@@ -73,7 +73,7 @@ const Portfolio = () => {
                     <i className="fas fa-plus" />
                   </span>
                 </div>
-                <span className="mil-dark">See More</span>
+                <span className="mil-light-soft">See More</span>
               </Link>
             </div>
           </div>

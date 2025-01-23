@@ -36,7 +36,7 @@ const LatestProjects = ( {projects} ) => {
         >
           {projects.slice(0, SectionData.numOfItems).map((item, key) => (
           <SwiperSlide className="swiper-slide">
-            <Link href="project" className="mil-card">
+            <Link href="" className="mil-card">
               <div className="mil-cover-frame">
                 <img src={item.image} alt={item.title} />
               </div>
@@ -44,10 +44,13 @@ const LatestProjects = ( {projects} ) => {
                 <div className="mil-card-title">
                   <h4 className="mil-mb-20">
                     {item.title}
-                  </h4>
-                  <h6>
-                    by: <span className="mil-accent">{item.author}</span>
-                  </h6>
+                    </h4>
+                    {
+                      item.author &&
+                      <h6>
+                        by: <span className="mil-accent">{item.author}</span>
+                      </h6>
+                    }
                 </div>
                 <div className="mil-card-text">
                   <p>{item.short}</p>

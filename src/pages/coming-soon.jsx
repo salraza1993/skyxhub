@@ -1,6 +1,7 @@
 import Layouts from "@/src/layouts/Layouts";
 import Link from "next/link";
 const ComingSoon = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <Layouts noHeader noFooter>
       {/* top bar */}
@@ -47,7 +48,7 @@ const ComingSoon = () => {
               <div className="row align-items-center">
                 <div className="col-lg-5">
                   <h4 className="mil-light mil-mb-30">
-                    Join The <span className="mil-accent">ITSulu</span>
+                    Join The <span className="mil-accent">SKYXHUB</span>
                     <br /> Experience
                   </h4>
                 </div>
@@ -75,7 +76,7 @@ const ComingSoon = () => {
       {/* coming soon end */}
       <div className="mil-addition-bottom">
         <div className="container-fluid">
-          <p className="mil-text-sm mil-light-soft">© ITSulu 2023.</p>
+          <p className="mil-text-sm mil-light-soft">© SKYXHUB {currentYear}.</p>
           <p className="mil-text-sm mil-light-soft">All Rights Reserved.</p>
         </div>
       </div>

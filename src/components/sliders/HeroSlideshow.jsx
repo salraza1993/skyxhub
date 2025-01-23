@@ -28,13 +28,16 @@ const Home1BannerSlider = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-xl-8">
-              <span className="mil-suptitle mil-mb-60">
-                <span className="mil-light">{Content.subtitle.first}</span>{" "}
-                <span className="mil-accent">{Content.subtitle.second}</span>
-              </span>
+              {
+                Content.subtitle && 
+                <span className="mil-suptitle mil-mb-60">
+                  <span className="mil-light">{Content.subtitle.first}</span>{" "}
+                  <span className="mil-accent">{Content.subtitle.second}</span>
+                </span>
+              }
               <h1 className="mil-mb-60">
-                <span dangerouslySetInnerHTML={{__html : Content.title.first}} className="mil-uppercase mil-light" />{" "}
-                <span className="mil-font-3 mil-accent">{Content.title.second}</span>
+                <span dangerouslySetInnerHTML={{ __html: Content.title.first }} className="mil-uppercase mil-light" />{" "}
+                <span className="mil-uppercase mil-bold-700 mil-accent">{Content.title.second}</span>
               </h1>
               <div className="mil-flex-hori-center">
                 <div>

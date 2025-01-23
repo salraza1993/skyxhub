@@ -1,6 +1,7 @@
 import Layouts from "@/src/layouts/Layouts";
 import Link from "next/link";
 const E404 = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <Layouts noFooter transparent>
       {/* 404 */}
@@ -38,7 +39,7 @@ const E404 = () => {
       {/* 404 end */}
       <div className="mil-addition-bottom">
         <div className="container-fluid">
-          <p className="mil-text-sm mil-light-soft">© ITSulu 2023.</p>
+          <p className="mil-text-sm mil-light-soft">© SKYXHUB {currentYear}.</p>
           <p className="mil-text-sm mil-light-soft">All Rights Reserved.</p>
         </div>
       </div>

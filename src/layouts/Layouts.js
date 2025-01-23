@@ -30,7 +30,7 @@ const Layouts = ({
         />
       )}
       {children}
-      {!noFooter && <Footer footer={footer} />}
+      {!noFooter && <Footer footer={2 } />}
     </div>
   );
 };

@@ -25,7 +25,7 @@ const HowItWorksSection = () => {
                 </div>
                 <h5>{item.name}</h5>
               </div>
-              <p>{item.text}</p>
+                <p className="mil-light-soft">{item.text}</p>
             </div>
           </div>
           ))}
@@ -39,7 +39,7 @@ const HowItWorksSection = () => {
           </div>
           <div className="col-md-6 col-xl-6">
             <div className="mil-adaptive-right">
-              <a href={Content.button2.link} className="mil-button mil-border mil-mb-30">
+              <a href={""} className="mil-button mil-border mil-mb-30">
                 <span>{Content.button2.label}</span>
               </a>
             </div>

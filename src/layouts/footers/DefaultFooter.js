@@ -1,4 +1,5 @@
 const DefaultFooter = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="mil-dark-bg">
       <img src="img/deco/map.png" alt="background" className="mil-footer-bg" />
@@ -40,7 +41,7 @@ const DefaultFooter = () => {
               <div className="row">
                 <div className="col-lg-7 mil-mb-30">
                   <h3 className="mil-light mil-up-font mil-mb-30">
-                    Join The <span className="mil-accent">ITSulu</span> <br />
+                    Join The <span className="mil-accent">SKYXHUB</span> <br />
                     Experience
                   </h3>
                   <p className="mil-light-soft">
@@ -55,7 +56,7 @@ const DefaultFooter = () => {
                       type="text"
                       placeholder="Your email address"
                     />
-                    <button className="mil-button mil-accent-bg mil-fw">
+                    <button className="mil-button mil-border mil-fw">
                       <span>Subscribe Now</span>
                     </button>
                   </form>
@@ -103,7 +104,7 @@ const DefaultFooter = () => {
       </div>
       <div className="mil-footer-bottom">
         <div className="container">
-          <p className="mil-text-sm mil-light">© ITSulu 2023.</p>
+          <p className="mil-text-sm mil-light">© SKYXHUB Technology {currentYear}.</p>
           <p className="mil-text-sm mil-light">All Rights Reserved.</p>
         </div>
       </div>

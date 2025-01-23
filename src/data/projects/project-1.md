@@ -1,9 +1,8 @@
 ---
 #preview
-title: Easy & Most Powerful Server Platform.
+title: NDC-X.
 image: img/projects/1.jpg
-author: Jane Meldrum
-short: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+short: A powerful B2B portal designed for streamlined and efficient flight booking, offering reliability and advanced solutions for businesses.
 
 #full details
 

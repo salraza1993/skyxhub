@@ -15,10 +15,12 @@ html,
 body {
     padding: 0;
     margin: 0;
+    background-color: $bodyBg;
+    color: $bodyColor;
     font-family: $font-2;
     font-size: $text;
     font-weight: 400;
-    color: $dt-40;
+    color: $lt-40;
     line-height: 170%;
     overscroll-behavior: none;
     scroll-behavior: smooth;
@@ -49,7 +51,7 @@ h5,
 h6,
 .mil-h6 {
     font-family: $font-1;
-    color: $dark;
+    color: $bodyColor;
     font-weight: 600;
     line-height: 140%;
 
@@ -131,6 +133,9 @@ h6,
 .mil-bold {
     font-weight: 500;
 }
+.mil-bold-700 {
+    font-weight: 700;
+}
 
 a {
     color: inherit;
@@ -140,7 +145,7 @@ a {
 .mil-suptitle {
     font-size: 18px;
     display: inline-block;
-    color: $dark;
+    color: $bodyColor;
     font-weight: 500;
     font-family: $font-1;
 
@@ -191,11 +196,11 @@ a {
 }
 
 .mil-light-soft {
-    color: $lt-50;
+    color: $lt-80;
 }
 
 .mil-dark-soft {
-    color: $dt-50;
+    color: $lt-80;
 }
 
 .mil-text-sm {
@@ -213,7 +218,7 @@ a {
 
 
 blockquote {
-    background-color: $dt-5;
+    background-color: $lt-5;
     padding: 60px;
     border-radius: 10px;
     color: $dark;
@@ -273,7 +278,7 @@ list
                 margin-left: 3px;
                 width: 7px;
                 height: 7px;
-                background-color: $dt-30;
+                background-color: $lt-30;
                 border-radius: 50%;
                 left: 0;
                 top: 0;
@@ -419,10 +424,10 @@ list
 }
 
 .mil-rec-res {
-    border-top: solid 1px $dt-10;
+    border-top: solid 1px $lt-10;
 
     & li {
-        border-bottom: solid 1px $dt-10;
+        border-bottom: solid 1px $lt-10;
         list-style-type: none;
 
         & a {
@@ -438,7 +443,7 @@ list
             & i {
                 transform: translateX(-10px);
                 transition: $t-md;
-                color: $dt-20;
+                color: $lt-20;
             }
 
             &:hover {
@@ -518,7 +523,7 @@ button
     padding: 0 60px;
     font-family: $font-2;
     font-size: $h6;
-    color: $dark;
+    color: $bodyColor;
     font-weight: 500;
     white-space: nowrap;
     display: inline-flex;
@@ -553,10 +558,10 @@ button
         }
 
         &.mil-gray-border {
-            border-color: $dt-10;
+            border-color: $lt-10;
 
             &:hover {
-                box-shadow: inset 0 0 0 1px $dt-10;
+                box-shadow: inset 0 0 0 1px $lt-10;
                 backdrop-filter: blur(10px);
             }
         }
@@ -577,6 +582,7 @@ button
 
     &.mil-accent-bg {
         background-color: $accent;
+        color: $accentColor;
         border-color: transparent;
 
         &:hover {
@@ -637,7 +643,7 @@ link
 .mil-link {
     font-family: $font-1;
     font-size: $h6;
-    color: $dark;
+    color: $bodyColor;
     font-weight: 600;
     white-space: nowrap;
     display: inline-flex;
@@ -650,9 +656,9 @@ link
 
     & i {
         font-size: 12px;
-        color: $light;
         margin-left: 15px;
         background-color: $accent;
+        color: $accentColor;
         width: 35px;
         height: 35px;
         border-radius: 50%;
@@ -726,7 +732,7 @@ form
         }
 
         &::placeholder {
-            color: $dt-30;
+            color: $lt-30;
         }
     }
 
@@ -743,7 +749,7 @@ form
         transition: $t-md;
 
         &::placeholder {
-            color: $dt-30;
+            color: $lt-30;
         }
 
         &.mil-shortened {
@@ -769,15 +775,15 @@ form
 
         & input,
         & textarea {
-            border-bottom: solid 2px $dt-10;
+            border-bottom: solid 2px $lt-10;
             color: $dark;
 
             &:hover {
-                border-bottom: solid 2px $dt-20;
+                border-bottom: solid 2px $lt-20;
             }
 
             &:focus {
-                border-bottom: solid 2px $dt-40;
+                border-bottom: solid 2px $lt-40;
             }
         }
     }
@@ -797,14 +803,14 @@ form
         font-size: $h6;
         color: $dark;
         font-weight: 400;
-        background-color: $light;
+        background-color: $dark-30;
 
         &:focus {
             outline: inherit;
         }
 
         &::placeholder {
-            color: $dt-30;
+            color: $lt-30;
         }
     }
 
@@ -834,7 +840,7 @@ form
     width: 100%;
     height: 70px;
     padding: 0 30px;
-    background-color: $light;
+    background-color: $dark-20;
     border: none;
     border-radius: 40px;
     font-family: $font-2;
@@ -843,7 +849,7 @@ form
     font-weight: 400;
 
     &::placeholder {
-        color: $dt-30;
+        color: $lt-30;
     }
 
     &:focus {
@@ -859,7 +865,7 @@ form
         height: 70px;
         padding: 0 30px;
         background-color: $light;
-        border: solid 2px $dt-10;
+        border: solid 2px $lt-10;
         border-radius: 40px;
         font-family: $font-2;
         font-size: $h6;
@@ -867,7 +873,7 @@ form
         font-weight: 400;
 
         &::placeholder {
-            color: $dt-30;
+            color: $lt-30;
         }
 
         &:focus {
@@ -1031,7 +1037,7 @@ form
     &.mil-dark-input {
         & .mil-checkbox {
             & + label:before {
-                border-color: $dt-40;
+                border-color: $lt-40;
             }
 
             &:hover + label:before {
@@ -1055,14 +1061,14 @@ divider
 .mil-divider {
     width: 100%;
     height: 2px;
-    background-color: $dt-10;
+    background-color: $lt-10;
     position: relative;
 
     &:before,
     &:after {
         content: '';
         width: 25px;
-        border-right: solid 5px $light;
+        border-right: solid 5px $bodyBg;
         height: 100%;
         background-color: $accent;
         position: absolute;
@@ -1130,7 +1136,7 @@ background
 
 ------------------------------------------- */
 .mil-deep-bg {
-    background-color: $dt-5;
+    background-color: $lt-5;
 }
 
 .mil-dark-bg {
@@ -1138,7 +1144,7 @@ background
 }
 
 .mil-gradient-bg {
-    background: linear-gradient(180deg, rgba(24, 30, 38, 1) 0%, $dark 100%);
+    background: linear-gradient(180deg, rgba(#181d17, 1) 0%, $dark 100%);
 }
 
 .mil-deco-right {

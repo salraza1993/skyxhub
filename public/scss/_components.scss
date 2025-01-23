@@ -29,7 +29,7 @@ top panel
 .mil-top-panel {
     padding: 0 10px;
     height: 100px;
-    background-color: $light;
+    background-color: $dark-10;
     width: 100%;
     z-index: 999;
     display: flex;
@@ -41,7 +41,7 @@ top panel
 
     @media screen and (max-width: 1200px) {
         padding: 0px;
-        border-bottom: solid 1px $dt-10;
+        border-bottom: solid 1px $lt-10;
     }
 
     & .container,
@@ -52,10 +52,11 @@ top panel
     }
 
     & .mil-logo {
-        height: 30px;
+        width: 230px !important;
+        height: 70px;
         display: flex;
         align-items: center;
-        background-image: url(../img/logo/logo-dark.png);
+        background-image: url(../img/logo/logo-light.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -64,7 +65,7 @@ top panel
     & .mil-navigation {
         & nav {
             display: flex;
-
+            align-items: center;
             & ul {
                 display: flex;
                 padding: 0;
@@ -77,7 +78,7 @@ top panel
                     & a {
                         font-family: $font-2;
                         text-decoration: none;
-                        color: $dark;
+                        color: $light;
                         font-weight: 400;
                         white-space: nowrap;
                         transition: $t-sm;
@@ -98,7 +99,7 @@ top panel
                             right: 0;
                             width: 8px;
                             height: 8px;
-                            border-radius: 50%;
+                            background-color: $accent;
                             border: solid 2px $accent;
                         }
 
@@ -124,7 +125,7 @@ top panel
                             padding: 30px;
                             box-shadow: 0px 0px 40px 0px rgba(18, 24, 32, 0.1);
                             border-radius: 0 0 5px 5px;
-                            background-color: $light;
+                            background-color: $dark-20;
                             transition: $t-md;
 
                             & li {
@@ -136,7 +137,7 @@ top panel
                                 }
 
                                 & a {
-                                    color: $dark;
+                                    color: $bodyColor;
 
                                     &:hover {
                                         color: $accent;
@@ -251,8 +252,8 @@ top panel
                                 overflow: hidden;
                                 transform: none;
                                 border-radius: 0 !important;
-                                background-color: $dt-5;
-                                box-shadow: inset 0 0 0 1px $dt-10;
+                                background-color: $lt-5;
+                                box-shadow: inset 0 0 0 1px $lt-10;
 
                                 & li {
                                     &:first-child {
@@ -486,7 +487,7 @@ addition panel
     align-items: center;
     background-color: $light;
     font-size: 14px;
-    border-bottom: solid 1px $dt-10;
+    border-bottom: solid 1px $lt-10;
     color: $dark;
     font-family: $font-2;
     font-weight: 400;
@@ -514,7 +515,7 @@ addition panel
             list-style-type: none;
             margin-right: 15px;
             padding-right: 15px;
-            border-right: solid 1px $dt-10;
+            border-right: solid 1px $lt-10;
 
             &:last-child {
                 border-right: none;
@@ -645,7 +646,7 @@ banner
         }
 
         & .mil-button-descr {
-            width: 450px;
+            width: calc(400px + 5vw);
             padding-left: 60px;
 
             @media screen and (max-width: 768px) {
@@ -796,7 +797,7 @@ banner
     }
 
     & .mil-overlay {
-        background-color: $dt-80;
+        background-color: $lt-80;
         width: 100%;
         height: 100%;
         position: absolute;
@@ -816,7 +817,7 @@ banner
 }
 
 .mil-banner-panel {
-    background-color: $dt-10;
+    background-color: $lt-10;
     height: 100px;
     display: flex;
     align-items: center;
@@ -870,10 +871,20 @@ illustration
                 transition: $t-md;
 
                 & .mil-window-content {
-                    padding: 30px;
+                    padding: 1.25rem;
                     position: relative;
                     height: 100%;
                     width: 100%;
+                    isolation: isolate;
+                    .mil-divider {
+                        background-color: $dt-10;
+                    }
+
+                    & .mil-text-sm {
+                        font-size: 14px;
+                        line-height: 1.35rem;
+                        color: $bodyBg;
+                    }
 
                     &:before {
                         content: '';
@@ -895,6 +906,7 @@ illustration
                         left: calc(50% - 15px);
                         transform: rotate(45deg);
                         border-radius: 0 0 5px 0;
+                        z-index: -1;
                     }
                 }
             }
@@ -941,8 +953,8 @@ illustration
 
                     & .mil-plus-icon {
                         background-color: $accent;
+                        color: $accentColor;
                         animation: puls 1s linear infinite;
-
                     }
                 }
             }
@@ -1056,7 +1068,6 @@ icons
     &:before {
         content: '';
         background-color: $accent;
-        border-radius: 50%;
         position: absolute;
         bottom: -2px;
         right: -3px;
@@ -1091,7 +1102,7 @@ icons
     }
 
     &.mil-icon-bg {
-        background-color: $dt-5;
+        background-color: $lt-5;
         width: 70px;
         height: 70px;
         border-radius: 50%;
@@ -1222,6 +1233,7 @@ services
     & .mil-service-text {
         width: 70%;
         padding-right: 30px;
+        color: $lt-70;
 
         @media screen and (max-width: 1200px) {
             width: auto;
@@ -1316,6 +1328,7 @@ card
 
         & .mil-card-text {
             width: 50%;
+            color: $lt-70;
         }
 
         & .mil-card-top {
@@ -1352,7 +1365,7 @@ card
 
                         &.mil-empty {
                             & i {
-                                color: $dt-20;
+                                color: $lt-20;
                             }
                         }
                     }
@@ -1542,7 +1555,7 @@ card
     overflow: hidden;
     position: relative;
     padding: 60px;
-    border: solid 2px $dt-10;
+    border: solid 2px $lt-10;
     border-radius: 10px;
     transition: $t-md;
 
@@ -1562,7 +1575,7 @@ card
 
     & .mil-link {
         & i {
-            background-color: $dt-20;
+            background-color: $lt-20;
         }
     }
 
@@ -1613,7 +1626,7 @@ slider navigation
 
         & i {
             font-size: 15px;
-            color: $dark;
+            color: $lt-30;
         }
 
         & * {
@@ -1744,7 +1757,7 @@ icon box
 .mil-number-icon {
     position: relative;
     overflow: hidden;
-    background-color: $dt-5;
+    background-color: $lt-5;
     height: 70px;
     width: 70px;
     display: flex;
@@ -1760,7 +1773,7 @@ icon box
 
         &:before {
             content: '';
-            background-color: $dt-5;
+            background-color: $lt-5;
             width: 100px;
             height: 30px;
             position: absolute;
@@ -1772,7 +1785,7 @@ icon box
 
         &:after {
             content: '';
-            background-color: $dt-5;
+            background-color: $lt-5;
             width: 100px;
             height: 30px;
             position: absolute;
@@ -1842,11 +1855,14 @@ skills
     display: flex;
     align-items: center;
     justify-content: space-between;
+    .mil-text-sm {
+        color: $accent;
+    }
 
     & .mil-skill-track {
         width: 80%;
         height: 2px;
-        background-color: $dt-20;
+        background-color: $lt-20;
 
         & .mil-skill-prog {
             position: relative;
@@ -1857,7 +1873,7 @@ skills
                 content: '';
                 width: 14px;
                 height: 14px;
-                border: solid 2px $light;
+                border: solid 2px $bodyBg;
                 background-color: $accent;
                 position: absolute;
                 right: 0;
@@ -2081,7 +2097,7 @@ about
 
                     &.mil-empty {
                         & i {
-                            color: $dt-20;
+                            color: $lt-20;
                         }
                     }
                 }
@@ -2168,7 +2184,7 @@ awards
     }
 
     & .mil-overlay {
-        background-color: $dt-80;
+        background-color: $lt-80;
         width: 100%;
         height: 100%;
         position: absolute;
@@ -2186,7 +2202,7 @@ awards
         }
 
         &.mil-super-light {
-            background-color: $dt-60;
+            background-color: $lt-60;
         }
 
         &.mil-with-deco {
@@ -2254,7 +2270,7 @@ breadcrumbs
 
             & a {
                 pointer-events: none;
-                color: $dt-50;
+                color: $lt-50;
             }
         }
     }
@@ -2380,7 +2396,7 @@ call to action
     }
 
     & .mil-overlay {
-        background-color: $dt-80;
+        background-color: $lt-80;
         width: 100%;
         height: 100%;
         position: absolute;
@@ -2467,7 +2483,7 @@ timeline
     padding-top: 60px;
     display: flex;
     justify-content: space-between;
-    border-top: solid 2px $dt-10;
+    border-top: solid 2px $lt-10;
     margin-bottom: 60px;
 
     & li {
@@ -2481,7 +2497,7 @@ timeline
             left: 4px;
             top: -60px;
             width: 1px;
-            border-right: dotted 2px $dt-10;
+            border-right: dotted 2px $lt-10;
             height: 175%;
         }
 
@@ -2508,7 +2524,7 @@ timeline
                 width: 10px;
                 height: 10px;
                 border-radius: 50%;
-                background-color: $dt-10;
+                background-color: $lt-10;
             }
         }
 
@@ -2522,7 +2538,7 @@ timeline
     @media screen and (max-width: 992px) {
         flex-direction: column;
         border-top: none;
-        border-left: solid 2px $dt-10;
+        border-left: solid 2px $lt-10;
         padding: 0;
 
         & li {
@@ -2568,7 +2584,7 @@ accordion
     cursor: pointer;
     padding: 30px 45px;
     width: 100%;
-    border-bottom: solid 2px $dt-10;
+    border-bottom: solid 2px $lt-10;
     transition: $t-md;
 
     &:first-child {
@@ -2619,7 +2635,7 @@ tabs
         display: block;
         cursor: pointer;
         padding: 30px;
-        border-bottom: solid 2px $dt-10;
+        border-bottom: solid 2px $lt-10;
         transition: $t-md;
 
         @media screen and (max-width: 768px) {
@@ -2637,7 +2653,7 @@ tabs
             left: 0;
             width: 0;
             height: 2px;
-            border-bottom: solid 2px $dt-10;
+            border-bottom: solid 2px $lt-10;
             transition: $t-md;
         }
     }
@@ -2682,7 +2698,7 @@ tabs
 }
 
 .mil-tab-buttons {
-    border-top: solid 2px $dt-10;
+    border-top: solid 2px $lt-10;
     display: flex;
     justify-content: space-between;
 
@@ -2745,7 +2761,7 @@ tabs
     }
 
     &.mil-tab-buttons-2 {
-        border-bottom: solid 2px $dt-10;
+        border-bottom: solid 2px $lt-10;
         border-top: none;
         justify-content: center;
 
@@ -2764,7 +2780,7 @@ tabs
             }
 
             & h6 {
-                color: $dt-60;
+                color: $lt-60;
                 text-align: center;
                 transition: $t-md;
             }
@@ -2780,7 +2796,7 @@ tabs
 
             &.mil-active {
                 & .mil-icon-bg {
-                    background-color: $dt-5;
+                    background-color: $lt-5;
                 }
 
                 & h6 {
@@ -2812,7 +2828,7 @@ tabs
         top: 0;
         width: 2px;
         height: 100%;
-        background-color: $dt-10;
+        background-color: $lt-10;
     }
 
     & li {
@@ -2831,7 +2847,7 @@ tabs
             transition: $t-md;
 
             &.mil-h4 {
-                color: $dt-30;
+                color: $lt-30;
             }
 
             &:before {
@@ -2840,7 +2856,7 @@ tabs
                 width: 20px;
                 height: 20px;
                 background-color: $light;
-                border: solid 5px $dt-10;
+                border: solid 5px $lt-10;
                 margin-right: 30px;
                 position: absolute;
                 left: 0;
@@ -2878,7 +2894,7 @@ price
     }
 
     & .mil-button {
-        border-color: $dt-10;
+        border-color: $lt-10;
 
         &:hover {
             border-color: $accent;
@@ -2903,7 +2919,7 @@ vacancies
     & .mil-vacancy {
         list-style-type: none;
         padding: 60px 0 30px;
-        border-top: solid 2px $dt-10;
+        border-top: solid 2px $lt-10;
 
         @media screen and (max-width: 992px) {
             padding: 30px 0 0;
@@ -2928,7 +2944,7 @@ vacancies
 
                 &.mil-badge-dark {
                     color: $light;
-                    background-color: $dt-30;
+                    background-color: $lt-30;
                 }
             }
         }
@@ -3011,7 +3027,7 @@ careers features
     margin-top: 30px;
 
     & .swiper-pagination-bullet {
-        background-color: $dt-10;
+        background-color: $lt-10;
         width: 10px;
         height: 10px;
         opacity: 1;
@@ -3143,7 +3159,7 @@ blog
             display: flex;
             margin-bottom: 10px;
             font-size: 12px;
-            background-color: $dt-10;
+            background-color: $lt-10;
             padding: 0 10px;
             border-radius: 20px;
             color: $dark;
@@ -3227,7 +3243,7 @@ blog
 
             @media screen and (max-width: 768px) {
                 padding-left: 30px;
-                border-left: dotted 2px $dt-10;
+                border-left: dotted 2px $lt-10;
             }
         }
     }
@@ -3254,7 +3270,6 @@ pagination
                 padding-top: 3px;
                 margin-right: 5px;
                 font-weight: 500;
-                color: $dark;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -3264,14 +3279,14 @@ pagination
                 transition: $t-md;
 
                 &:hover {
-                    background-color: $dt-10;
+                    background-color: $lt-10;
                 }
 
             }
 
             &.mil-active {
                 & a {
-                    color: $light;
+                    color: $accentColor;
                     background-color: $accent;
                 }
             }
@@ -3294,7 +3309,7 @@ pagination
         transition: $t-md;
 
         &:hover {
-            background-color: $dt-10;
+            background-color: $lt-10;
         }
     }
 
@@ -3372,13 +3387,13 @@ project
 
     &:after {
         content: '';
-        width: 30%;
-        padding-bottom: 30%;
+        width: 15%;
+        padding-bottom: 15%;
         background-color: $accent;
         position: absolute;
-        bottom: -15%;
-        left: -10%;
-        border-radius: 50%;
+        opacity: 0.85;
+        bottom: 1rem;
+        left: 1rem;
     }
 
     &:hover {
@@ -3406,7 +3421,7 @@ project
     justify-content: center;
     align-items: center;
     height: 100px;
-    box-shadow: 0px 0px 0px 1px $dt-10;
+    box-shadow: 0px 0px 0px 1px $lt-10;
     margin-bottom: 30px;
     border-radius: 5px;
     transition: $t-md;
@@ -3460,7 +3475,7 @@ footer
     object-position: top;
     width: 100%;
     height: 100%;
-    opacity: .05;
+    opacity: .06;
     pointer-events: none;
 }
 
@@ -3468,7 +3483,7 @@ footer
     position: relative;
 
     & .mil-logo {
-        width: 120px;
+        width: 200px !important;
     }
 
     & .mil-list-title {
@@ -3600,7 +3615,7 @@ footer
         justify-content: space-between;
 
         & p {
-            opacity: .3;
+            opacity: .8;
         }
     }
 }
@@ -3651,7 +3666,7 @@ additional pages
     }
 
     & .mil-overlay {
-        background: $dt-95;
+        background: $lt-95;
         width: 100%;
         height: 100%;
         position: absolute;

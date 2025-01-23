@@ -70,7 +70,7 @@ const ContactForm = () => {
               </div>
             </div>
             <div className="col-12">
-              <button className="mil-button mil-accent-bg mil-fw">
+              <button className="mil-button mil-border mil-fw">
                 <span>Send Message Now</span>
               </button>
             </div>

@@ -1,4 +1,5 @@
 const Footer2 = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="mil-dark-bg">
       <img src="img/deco/map.png" alt="background" className="mil-footer-bg" />
@@ -7,10 +8,10 @@ const Footer2 = () => {
           <div className="row align-items-center mil-p-120-60">
             <div className="col-xl-6 mil-mb-60">
               <h3 className="mil-light mil-mb-15">
-                Join The <span className="mil-accent">ITSulu</span> Experience
+                Join The <span className="mil-accent">SKYXHUB</span> Experience
               </h3>
               <p className="mil-light-soft">
-                Duis autem vel eum iriure dolor in hendrerit in vulputate.
+                Experience innovation, expertise, and excellence with SKYXHUB.
               </p>
             </div>
             <div className="col-xl-6 mil-mb-60">
@@ -35,19 +36,17 @@ const Footer2 = () => {
                 className="mil-light mil-light-soft"
                 style={{ marginBottom: 45 }}
               >
-                2307 Beverley Rd Brooklyn, <br />
-                New York 11226 USA.
+                Mohamed Abdullah Al Gaz Building,
+                Near Clock Tower, Deira Dubai, UAE
               </p>
               <ul className="mil-simple-list mil-mb-15">
                 <li className="mil-light">
-                  <span className="mil-accent">+07</span>&nbsp;
-                  <span className="mil-light-soft">0 002 00 05</span>
+                  <span className="mil-accent">+971</span>&nbsp;
+                  <span className="mil-light-soft">55 153 2975</span>
                 </li>
                 <li>
                   <span className="mil-accent">info</span>
-                  <span className="mil-light mil-light-soft">
-                    @mydomain.com
-                  </span>
+                  <span className="mil-light mil-light-soft">@skyxhub.com</span>
                 </li>
               </ul>
             </div>
@@ -122,7 +121,7 @@ const Footer2 = () => {
       </div>
       <div className="mil-footer-bottom">
         <div className="container">
-          <p className="mil-text-sm mil-light">© ITSulu 2023.</p>
+          <p className="mil-text-sm mil-light">© SKYXHUB {currentYear}.</p>
           <p className="mil-text-sm mil-light">All Rights Reserved.</p>
         </div>
       </div>

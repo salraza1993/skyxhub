@@ -24,7 +24,7 @@ const Faq = () => {
               <div className="row justify-content-between">
                 <div className="col-lg-4">
                   <h3 className="mil-up-font mil-mb-30">
-                    <span className="mil-accent">ITSulu Connects</span> The
+                    <span className="mil-accent">SKYXHUB Connects</span> The
                     Entire Organization From End To End.
                   </h3>
                   <p className="mil-mb-60">
@@ -35,7 +35,7 @@ const Faq = () => {
                 </div>
                 <div className="col-lg-7">
                   <div className="mil-accordion">
-                    <h6>Information about ITSulu</h6>
+                    <h6>Information about SKYXHUB</h6>
                   </div>
                   <div className="mil-panel">
                     <div className="mil-window">
@@ -55,7 +55,7 @@ const Faq = () => {
                     </div>
                   </div>
                   <div className="mil-accordion">
-                    <h6>What are the benefits of using ITSulu?</h6>
+                    <h6>What are the benefits of using SKYXHUB?</h6>
                   </div>
                   <div className="mil-panel">
                     <div className="mil-window">
@@ -75,7 +75,7 @@ const Faq = () => {
                     </div>
                   </div>
                   <div className="mil-accordion">
-                    <h6>How much does ITSulu cost?</h6>
+                    <h6>How much does SKYXHUB cost?</h6>
                   </div>
                   <div className="mil-panel">
                     <div className="mil-window">
@@ -154,7 +154,7 @@ const Faq = () => {
                 </div>
                 <div className="col-lg-7">
                   <div className="mil-accordion">
-                    <h6>How much does ITSulu cost?</h6>
+                    <h6>How much does SKYXHUB cost?</h6>
                   </div>
                   <div className="mil-panel">
                     <div className="mil-window">
@@ -174,7 +174,7 @@ const Faq = () => {
                     </div>
                   </div>
                   <div className="mil-accordion">
-                    <h6>What are the benefits of using ITSulu?</h6>
+                    <h6>What are the benefits of using SKYXHUB?</h6>
                   </div>
                   <div className="mil-panel">
                     <div className="mil-window">
@@ -194,7 +194,7 @@ const Faq = () => {
                     </div>
                   </div>
                   <div className="mil-accordion">
-                    <h6>Information about ITSulu</h6>
+                    <h6>Information about SKYXHUB</h6>
                   </div>
                   <div className="mil-panel">
                     <div className="mil-window">
@@ -272,7 +272,7 @@ const Faq = () => {
                 </div>
                 <div className="col-lg-7">
                   <div className="mil-accordion">
-                    <h6>What are the benefits of using ITSulu?</h6>
+                    <h6>What are the benefits of using SKYXHUB?</h6>
                   </div>
                   <div className="mil-panel">
                     <div className="mil-window">
@@ -312,7 +312,7 @@ const Faq = () => {
                     </div>
                   </div>
                   <div className="mil-accordion">
-                    <h6>How much does ITSulu cost?</h6>
+                    <h6>How much does SKYXHUB cost?</h6>
                   </div>
                   <div className="mil-panel">
                     <div className="mil-window">
@@ -352,7 +352,7 @@ const Faq = () => {
                     </div>
                   </div>
                   <div className="mil-accordion">
-                    <h6>Information about ITSulu</h6>
+                    <h6>Information about SKYXHUB</h6>
                   </div>
                   <div className="mil-panel">
                     <div className="mil-window">
@@ -390,7 +390,7 @@ const Faq = () => {
                 </div>
                 <div className="col-lg-7">
                   <div className="mil-accordion">
-                    <h6>Information about ITSulu</h6>
+                    <h6>Information about SKYXHUB</h6>
                   </div>
                   <div className="mil-panel">
                     <div className="mil-window">
@@ -410,7 +410,7 @@ const Faq = () => {
                     </div>
                   </div>
                   <div className="mil-accordion">
-                    <h6>What are the benefits of using ITSulu?</h6>
+                    <h6>What are the benefits of using SKYXHUB?</h6>
                   </div>
                   <div className="mil-panel">
                     <div className="mil-window">
@@ -430,7 +430,7 @@ const Faq = () => {
                     </div>
                   </div>
                   <div className="mil-accordion">
-                    <h6>How much does ITSulu cost?</h6>
+                    <h6>How much does SKYXHUB cost?</h6>
                   </div>
                   <div className="mil-panel">
                     <div className="mil-window">
