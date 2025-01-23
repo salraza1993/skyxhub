@@ -14,16 +14,16 @@ const DefaultHeader = ({ transparent, headerTop, extraClass }) => {
     },
     {
       title: "Who we are",
-      link: "/about",
+      link: "",
       subMenus: [
-        { title: "About SkyXHub", link: "/about" },
-        { title: "Our Team", link: "/team" },
-        { title: "Career", link: "/career" },
+        { title: "About SkyXHub", link: "" },
+        { title: "Our Team", link: "" },
+        { title: "Career", link: "" },
       ],
     },
     {
       title: "Portfolio",
-      link: "/services",
+      link: "",
       subMenus: [
         { title: "NDC-X", link: "/services/service-1" },
         { title: "NSAS Tourism", link: "/services/service-2" },
@@ -32,7 +32,7 @@ const DefaultHeader = ({ transparent, headerTop, extraClass }) => {
     },
     {
       title: "Blog",
-      link: "/blog",
+      link: "",
       subMenus: [],
     },
     {
