@@ -1,35 +1,35 @@
 {
     "title": { "first": "Business", "second": "Success", "third": "With <br />Technology" },
     "subtitle": "Our Skill",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using content here.",
+    "description": "Empower your business with transformative technology solutions that drive innovation, optimize operations, and unlock new growth opportunities. From streamlining processes to enhancing customer experiences, embrace the tools that ensure long-term success in a rapidly evolving digital landscape.",
     "items": [
         {
             "label": "Software Development",
-            "value": "65"
+            "value": "90"
         },
         {
             "label": "Web Development",
-            "value": "90"
+            "value": "96"
         },
         {
             "label": "UX / UI Design",
-            "value": "50"
+            "value": "98"
         },
         {
             "label": "App Development",
-            "value": "95"
+            "value": "91"
         },
         {
             "label": "White Label B2B Solution",
-            "value": "60"
+            "value": "93"
         },
         {
             "label": "NDC-Enabled Platform",
-            "value": "90"
+            "value": "91"
         },
         {
             "label": "Content API",
-            "value": "80"
+            "value": "90"
         }
     ],
     "button": {

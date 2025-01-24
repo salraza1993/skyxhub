@@ -6,10 +6,10 @@ const DefaultHeader = ({ transparent, headerTop, extraClass }) => {
   const [topMenus, setTopMenus] = useState([
     {
       title: "Solutions",
-      link: "/services",
+      link: "/",
       subMenus: [
-        { title: "IT Services", link: "/services/service-1" },
-        { title: "IT Solutions", link: "/services/service-2" },
+        { title: "IT Services", link: "" },
+        { title: "IT Solutions", link: "" },
       ],
     },
     {
@@ -25,9 +25,9 @@ const DefaultHeader = ({ transparent, headerTop, extraClass }) => {
       title: "Portfolio",
       link: "",
       subMenus: [
-        { title: "NDC-X", link: "/services/service-1" },
-        { title: "NSAS Tourism", link: "/services/service-2" },
-        { title: "Aero Star Aviations", link: "/services/service-3" },
+        { title: "NDC-X", link: "" },
+        { title: "NSAS Tourism", link: "" },
+        { title: "Aero Star Aviations", link: "" },
       ],
     },
     {
