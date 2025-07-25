@@ -36,8 +36,7 @@ const Footer2 = () => {
                 className="mil-light mil-light-soft"
                 style={{ marginBottom: 45 }}
               >
-                Mohamed Abdullah Al Gaz Building,
-                Near Clock Tower, Deira Dubai, UAE
+                City Pharmacy Building, M02 Floor, Street 22A, Opp Port Saeed 1, Bus Stop, Al Khabaisi, Dubai, United Arab Emirates
               </p>
               <ul className="mil-simple-list mil-mb-15">
                 <li className="mil-light">

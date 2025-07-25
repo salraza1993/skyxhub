@@ -177,8 +177,9 @@ const Contact = () => {
       {/* map */}
       <div>
         <div className="mil-map-frame">
+          
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.289421122936!2d-74.0577166!3d40.7107384!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c250aee3ee6da7%3A0xe8a316c6c836011f!2sBuddy's%20JC!5e0!3m2!1sen!2sua!4v1682071433844!5m2!1sen!2sua"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d902.0609371472339!2d55.331462369604154!3d25.262384611449953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5cdcbfde0157%3A0x2062f2465e20d98f!2sCity%20Pharmacy%20Building%20-%2022A%20St%20-%20Al%20Khabaisi%20-%20Dubai!5e0!3m2!1sen!2sae!4v1753449677504!5m2!1sen!2sae"
             width={600}
             height={450}
             style={{ border: 0 }}
@@ -194,7 +195,7 @@ const Contact = () => {
       <section className="mil-p-120-60">
         <div className="container">
           <div className="row">
-            <div className="col-xl-4">
+            {/* <div className="col-xl-4">
               <div className="mil-mb-60">
                 <h4 className="mil-mb-30">United States</h4>
                 <h5 className="mil-list-title mil-mb-15">New York</h5>
@@ -209,26 +210,24 @@ const Contact = () => {
                   <span className="mil-accent">usa</span>.support@mydomain.com
                 </h6>
               </div>
-            </div>
+            </div> */}
             <div className="col-xl-4">
               <div className="mil-mb-60">
-                <h4 className="mil-mb-30">Germany</h4>
-                <h5 className="mil-list-title mil-mb-15">Berlin</h5>
+                <h4 className="mil-mb-30">Dubai, United Arab Emirates</h4>
+                <h5 className="mil-list-title mil-mb-15">Deira (Port Saeed 1)</h5>
                 <p className="mil-mb-30">
-                  501, Satyamev Eminence, Science City Road, Ahmedabad, Gujarat
-                  - 380060
+                  City Pharmacy Building, M02 Floor, Street 22A, Opp Port Saeed 1, Bus Stop, Al Khabaisi, Dubai, United Arab Emirates
                 </p>
                 <div className="mil-divider mil-divider-left mil-mb-30" />
                 <h6 className="mil-mb-15">
-                  <span className="mil-accent">+ 90</span> 700 300 000
+                  <span className="mil-accent">+971</span> 433 881 71
                 </h6>
                 <h6>
-                  <span className="mil-accent">germany</span>
-                  .support@mydomain.com
+                  <span className="mil-accent">support</span>@skyxhub.com
                 </h6>
               </div>
             </div>
-            <div className="col-xl-4">
+            {/* <div className="col-xl-4">
               <div className="mil-mb-60">
                 <h4 className="mil-mb-30">France</h4>
                 <h5 className="mil-list-title mil-mb-15">Paris</h5>
@@ -245,7 +244,7 @@ const Contact = () => {
                   .support@mydomain.com
                 </h6>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
