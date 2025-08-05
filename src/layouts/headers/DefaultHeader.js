@@ -1,3 +1,4 @@
+'use client';
 import Link from "next/link";
 import { useState } from "react";
 
@@ -79,11 +80,9 @@ const DefaultHeader = ({ transparent, headerTop, extraClass }) => {
       >
         {/* mil-top-panel-transparent */}
         <div className="container">
-          <Link href="/" legacyBehavior>
-            <a className="mil-logo" style={{ width: 140 }}></a>
-          </Link>
+          <Link href={'/'} className="mil-logo" style={{ width: 140 }} />
           <div className={`mil-navigation ${toggle ? "mil-active" : ""}`}>
-            <nav clas>
+            <nav>
               <ul>
                 {
                   topMenus.map((menu, index) => (
@@ -102,7 +101,7 @@ const DefaultHeader = ({ transparent, headerTop, extraClass }) => {
                   ))
                 }
               </ul>
-              <a href="https://wa.me/+971551532975?text=Hello%20I%20would%20like%20more%20information%20" class="mil-button mil-accent-bg mil-button-sm mil-border"><span>Talk To an Expert</span></a>
+              <a href="https://wa.me/+971551532975?text=Hello%20I%20would%20like%20more%20information%20" className="mil-button mil-accent-bg mil-button-sm mil-border"><span>Talk To an Expert</span></a>
             </nav>
           </div>
           {/* mobile menu button */}

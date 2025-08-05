@@ -1,3 +1,5 @@
+@use 'variables' as *;
+
 /* -------------------------------------------
 
 top panel
@@ -2599,9 +2601,6 @@ accordion
         padding-top: 5px;
     }
 }
-
-.mil-accordion.mil-active,
-.mil-accordion:hover {}
 
 .mil-panel {
     padding: 0 18px;

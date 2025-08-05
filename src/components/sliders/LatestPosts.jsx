@@ -56,7 +56,7 @@ const LatestThinking = ( {posts} ) => {
           className="swiper-container mil-blog-slider mil-mb-90"
         >
           {latestPosts.map((item, key) => (
-          <SwiperSlide className={`swiper-slide ${item.classOne}`}>
+          <SwiperSlide className={`swiper-slide ${item.classOne}`} key={key}>
             <Link href="publication" className={`mil-card ${item.classTwo}`}>
               { item.tempType == 'one' &&
               <>

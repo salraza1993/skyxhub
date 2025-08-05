@@ -6,22 +6,21 @@ import Content from "../../data/sliders/hero-slideshow.json";
 const Home1BannerSlider = () => {
   return (
     <div className="mil-banner mil-top-space-0">
-      <Swiper
-        {...sliderProps.milBannersSlider}
-        className="swiper-container mil-banner-slideshow"
-      >
-        {Content.slides.map((slide, key) => (
-        <SwiperSlide className="swiper-slide">
-          <img
-            src={slide.image}
-            className="mil-background-image"
-            style={{ objectPosition: "center" }}
-            data-swiper-parallax={-100}
-            data-swiper-parallax-scale="1.1"
-            alt="image"
-          />
-        </SwiperSlide>
-        ))}
+      <Swiper {...sliderProps.milBannersSlider} className="swiper-container mil-banner-slideshow">
+        {
+          Content.slides.map((slide, index) => (
+            <SwiperSlide className="swiper-slide" key={index}>
+              <img
+                src={slide.image}
+                className="mil-background-image"
+                style={{ objectPosition: "center" }}
+                data-swiper-parallax={-100}
+                data-swiper-parallax-scale="1.1"
+                alt="image"
+              />
+            </SwiperSlide>
+          ))
+        }
       </Swiper>
       <div className="mil-overlay" />
       <div className="mil-banner-content">
@@ -56,7 +55,7 @@ const Home1BannerSlider = () => {
             <div className="col-xl-4">
               <div className="mil-illustration-1">
                 {Content.items.map((item, key) => (
-                <div className={`mil-item mil-item-${key+1}`}>
+                <div key={key} className={`mil-item mil-item-${key+1}`}>
                   <div className="mil-plus">
                     <div className="mil-hover-window">
                       <div className="mil-window-content">

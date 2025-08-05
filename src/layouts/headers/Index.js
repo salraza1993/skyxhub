@@ -1,3 +1,4 @@
+'use client';
 import { stickyNav } from "@/src/common/utilits";
 import { useEffect } from "react";
 import DefaultHeader from "./DefaultHeader";

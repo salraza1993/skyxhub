@@ -37,7 +37,7 @@ const Home1TestimonialSlider = () => {
           className="swiper-container mil-revi-slider"
         >
           {Content.items.map((item, key) => (
-          <SwiperSlide className="swiper-slide">
+          <SwiperSlide className="swiper-slide" key={key}>
             <div className="mil-review">
               <div className="mil-stars mil-mb-30">
                 <img src="img/icons/sm/11.svg" alt="quote" />

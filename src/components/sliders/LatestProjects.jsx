@@ -35,7 +35,7 @@ const LatestProjects = ( {projects} ) => {
           className="swiper-container mil-works-slider mil-mb-90"
         >
           {projects.slice(0, SectionData.numOfItems).map((item, key) => (
-          <SwiperSlide className="swiper-slide">
+          <SwiperSlide className="swiper-slide" key={key}>
             <Link href="" className="mil-card">
               <div className="mil-cover-frame">
                 <img src={item.image} alt={item.title} />
