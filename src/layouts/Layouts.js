@@ -1,3 +1,5 @@
+'use client';
+
 import { useEffect } from "react";
 import { accordion, milButtonClick, milButtonClick2 } from "@/src/common/utilits";
 import Footer from "./footers/Index";

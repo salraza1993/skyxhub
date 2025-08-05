@@ -1,10 +1,14 @@
-// Google Fonts - keep as @import for external resources
+// Google Fonts - Fallback fonts (Next.js font optimization handles primary fonts)
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Sora:wght@100;200;300;400;500;600;700;800&family=Syne:wght@400;500;600;700;800&display=swap');
 
-// Font variables using Next.js optimized font
-$font-1: var(--font-kanit, 'Syne', sans-serif);
-$font-2: var(--font-kanit, 'Sora', sans-serif);
-$font-3: var(--font-kanit, 'Sora', sans-serif);
+// Font variables using Next.js optimized font system
+$font-1: var(--font-kanit, 'Syne', system-ui, sans-serif);
+$font-2: var(--font-kanit, 'Sora', system-ui, sans-serif);
+$font-3: var(--font-kanit, 'Sora', system-ui, sans-serif);
+
+// Fallback font stacks for better performance
+$font-system: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+$font-mono: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
 
 $bodyBg: rgba(26, 26, 26, 1);
 $bodyColor: rgba(233, 233, 233, 1);
