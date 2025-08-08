@@ -1,3 +1,4 @@
+'use client'
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { sliderProps } from "../../common/sliderProps";
@@ -48,7 +49,7 @@ const LatestProjects = ( {projects} ) => {
                     {
                       item.author &&
                       <h6>
-                        by: <span className="mil-accent">{item.author}</span>
+                        by: <span className="mil-accent-2">{item.author}</span>
                       </h6>
                     }
                 </div>

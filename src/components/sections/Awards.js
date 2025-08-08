@@ -46,7 +46,7 @@ const AwardsSection = () => {
           <div className="col-xl-6 p-0">
             <div className="row m-0">
               {awardsItems.map((item, key) => (
-              <div className="col-md-6 col-xl-6 p-0">
+              <div className="col-md-6 col-xl-6 p-0" key={`awards-${key}`}>
                 <div className={item.boxClass}>
                   <div className="mil-icon-box mil-center">
                     <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
@@ -63,7 +63,7 @@ const AwardsSection = () => {
             </div>
           </div>
         </div>
-      </section>      
+      </section>
     );
 };
 

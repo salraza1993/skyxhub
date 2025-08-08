@@ -11,7 +11,7 @@ const PriceTestimonialSlider = () => {
         >
           <SwiperSlide className="swiper-slide">
             <div className="mil-review mil-text-center">
-              <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
+              <div className="mil-icon-frame mil-icon-frame-md mil-mb-30 mil-dark">
                 <img src="img/icons/md/7.svg" alt="icon" />
               </div>
               <p className="mil-mb-30">

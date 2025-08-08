@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { sliderProps } from "../../common/sliderProps";
 import SectionData from "../../data/sliders/latest-posts.json";
 
-const LatestThinking = ( {posts} ) => {
+const LatestPosts = ( {posts} ) => {
 
   const latestPosts = [];
 
@@ -31,7 +31,7 @@ const LatestThinking = ( {posts} ) => {
       <div className="container">
         <div className="row align-items-center mil-mb-90">
           <div className="col-md-6 col-xl-6">
-            <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
+            <span className="mil-suptitle mil-suptitle-2 mil-mb-30 mil-dark">
               {SectionData.subtitle}
             </span>
             <h2>{SectionData.title}</h2>
@@ -69,7 +69,7 @@ const LatestThinking = ( {posts} ) => {
                       {item.title}
                     </h4>
                     <h6>
-                      by: <span className="mil-accent">{item.author}</span>
+                      by: <span className="mil-accent-2">{item.author}</span>
                     </h6>
                   </div>
                   <div className="mil-card-text">
@@ -135,4 +135,4 @@ const LatestThinking = ( {posts} ) => {
     </section>
   );
 };
-export default LatestThinking;
+export default LatestPosts;

@@ -6,7 +6,7 @@ const SkillsSection = () => {
             <div className="container">
                 <div className="row align-items-end mil-mb-90">
                     <div className="col-xl-6">
-                    <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
+                    <span className="mil-suptitle mil-suptitle-2 mil-mb-30 mil-dark">
                         {Content.subtitle}
                     </span>
                     <h2>
@@ -14,7 +14,7 @@ const SkillsSection = () => {
                     </h2>
                     </div>
                     <div className="col-xl-6">
-                    <p className="mil-mt-60-adapt">
+                    <p className="mil-mt-60-adapt mil-dark">
                         {Content.description}
                     </p>
                     </div>
@@ -27,7 +27,7 @@ const SkillsSection = () => {
                             <div className="mil-skill-track">
                             <div className="mil-skill-prog" style={{ width: item.value+"%" }} />
                             </div>
-                            <div className="mil-text-sm">{item.value}%</div>
+                            <div className="mil-text-sm mil-dark">{item.value}%</div>
                         </div>
                     </div>
                     ))}

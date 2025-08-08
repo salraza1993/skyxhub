@@ -17,13 +17,13 @@ const DefaultHeader = ({ transparent, headerTop, extraClass }) => {
       title: "Who we are",
       link: "",
       subMenus: [
-        { title: "About SkyXHub", link: "" },
+        { title: "About SkyXHub", link: "/about" },
         { title: "Our Team", link: "" },
         { title: "Career", link: "" },
       ],
     },
     {
-      title: "Portfolio",
+      title: "Case-Studies",
       link: "",
       subMenus: [
         { title: "NDC-X", link: "" },

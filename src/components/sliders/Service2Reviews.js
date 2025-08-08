@@ -45,7 +45,7 @@ const Service2Reviews = () => {
                 </p>
                 <h3 className="mil-light mil-mb-15">Victoria Oldman</h3>
                 <p className="mil-light-soft">Director of Product Management</p>
-                <p className="mil-accent">ITAgency, Inc</p>
+                <p className="mil-accent-2">ITAgency, Inc</p>
               </div>
             </div>
           </SwiperSlide>
@@ -78,7 +78,7 @@ const Service2Reviews = () => {
                 </p>
                 <h3 className="mil-light mil-mb-15">John Doe</h3>
                 <p className="mil-light-soft">Director of Product Management</p>
-                <p className="mil-accent">ITAgency, Inc</p>
+                <p className="mil-accent-2">ITAgency, Inc</p>
               </div>
             </div>
           </SwiperSlide>
@@ -111,7 +111,7 @@ const Service2Reviews = () => {
                 </p>
                 <h3 className="mil-light mil-mb-15">Oscar Trueman</h3>
                 <p className="mil-light-soft">Director of Product Management</p>
-                <p className="mil-accent">ITAgency, Inc</p>
+                <p className="mil-accent-2">ITAgency, Inc</p>
               </div>
             </div>
           </SwiperSlide>

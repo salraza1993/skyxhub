@@ -402,7 +402,7 @@ const Service1 = () => {
               Types Of <span className="mil-accent">SaaS Applications</span> We
               Deliver
             </h2>
-            <p className="mil-light-soft">
+            <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor <br />
               incididunt ut labore et dolore magna aliqua.

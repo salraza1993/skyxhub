@@ -18,11 +18,11 @@
     "paths": {
       "@/*": ["./*"],
       "@/src/*": ["./src/*"],
-      "@/components/*": ["./src/components/*"],
-      "@/layouts/*": ["./src/layouts/*"],
-      "@/data/*": ["./src/data/*"],
-      "@/public/*": ["./public/*"],
-      "@/styles/*": ["./src/styles/*"],
+      "@components/*": ["./src/components/*"],
+      "@layouts/*": ["./src/layouts/*"],
+      "@data/*": ["./src/data/*"],
+      "@public/*": ["./public/*"],
+      "@styles/*": ["./src/styles/*"],
       "@posts": ["./src/data/posts"],
       "@posts/*": ["./src/data/posts/*"]
     }

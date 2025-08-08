@@ -1,24 +1,11 @@
 import PageBanner from "@/src/components/PageBanner";
 import Layouts from "@/src/layouts/Layouts";
 import dynamic from "next/dynamic";
-const Solution1About = dynamic(
-  () => import("@/src/components/sliders/Solution1About"),
-  {
-    ssr: false,
-  }
-);
-const Solution1MilBoxSlider = dynamic(
-  () => import("@/src/components/sliders/Solution1MilBoxSlider"),
-  {
-    ssr: false,
-  }
-);
-const SolutionMilReviSlider = dynamic(
-  () => import("@/src/components/sliders/SolutionMilReviSlider"),
-  {
-    ssr: false,
-  }
-);
+
+const Solution1About = dynamic(() => import("@/src/components/sliders/Solution1About"), { ssr: false });
+const Solution1MilBoxSlider = dynamic(() => import("@/src/components/sliders/Solution1MilBoxSlider"), { ssr: false });
+const SolutionMilReviSlider = dynamic(() => import("@/src/components/sliders/SolutionMilReviSlider"), { ssr: false });
+
 const Solution1 = () => {
   return (
     <Layouts footer={2}>

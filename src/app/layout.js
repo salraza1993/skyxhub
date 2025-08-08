@@ -71,7 +71,7 @@ export default function RootLayout({ children }) {
         
         {/* Public assets */}
         <link rel="stylesheet" href="/css/plugins/bootstrap-grid.css" />
-        <link rel="stylesheet" href="/css/plugins/font-awesome.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
         <link rel="stylesheet" href="/css/plugins/swiper.min.css" />
       </head>
       <body>

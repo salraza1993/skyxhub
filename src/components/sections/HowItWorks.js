@@ -3,17 +3,17 @@ import Content from "../../data/sections/how-it-works.json";
 const HowItWorksSection = () => {
   return (
     <section className="mil-how-it-works mil-deep-bg mil-p-120-90">
-      <div className="mil-deco" style={{ top: 0, right: "20%" }} />
+      <div className="mil-deco mil-deco-3" style={{ top: 0, right: "20%" }} />
       <div
-        className="mil-deco"
+        className="mil-deco mil-deco-3"
         style={{ bottom: 0, left: "30%", transform: "rotate(180deg)" }}
       />
       <div className="container">
-        <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
+        <span className="mil-suptitle mil-suptitle-2 mil-mb-30 mil-dark">
           {Content.subtitle}
         </span>
         <h2 className="mil-mb-90">
-          {Content.title.first} <span className="mil-accent">{Content.title.second}</span> {Content.title.third}
+          <span>{Content.title.first}</span> <span className="mil-accent-2 mil-font-700">{Content.title.second}</span>  <span>{Content.title.third}</span>
         </h2>
         <div className="row">
           {Content.items.map((item, key) => (
@@ -25,7 +25,7 @@ const HowItWorksSection = () => {
                 </div>
                 <h5>{item.name}</h5>
               </div>
-                <p className="mil-light-soft">{item.text}</p>
+              <p>{item.text}</p>
             </div>
           </div>
           ))}

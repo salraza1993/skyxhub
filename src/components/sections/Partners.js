@@ -7,9 +7,9 @@ const PartnersSection = () => {
       <div className="container">
         <div className="mil-partners-frame">
           {Content.items.map((item, index) => (
-            <Link href={item.link} key={`partners-i-${index}`}>
+            <span key={`partners-i-${index}`}>
               <img src={item.image} alt={item.alt} />
-            </Link>
+            </span>
           ))}
         </div>
       </div>

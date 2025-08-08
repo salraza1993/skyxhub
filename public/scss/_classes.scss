@@ -1,0 +1,12 @@
+@use "variables" as *;
+
+.text-aceent {
+  color: $accent;
+}
+
+.font-light {
+  font-weight: 200 !important;
+}
+.font-bold {
+  font-weight: 200 !important;
+}

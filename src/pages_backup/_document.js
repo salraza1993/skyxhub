@@ -21,7 +21,7 @@ export default function Document() {
 
         {/* public assets begin */}
         <link rel="stylesheet" href="/css/plugins/bootstrap-grid.css" />
-        <link rel="stylesheet" href="/css/plugins/font-awesome.min.css" />
+        {/* <link rel="stylesheet" href="/css/plugins/font-awesome.min.css" /> */}
         <link rel="stylesheet" href="/css/plugins/swiper.min.css" />  
         {/* public assets end */}
       </Head>

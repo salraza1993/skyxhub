@@ -115,7 +115,7 @@ const Blog = () => {
                     <img src="img/faces/1.jpg" alt="cover" />
                   </div>
                   <div className="mil-description">
-                    <h4 className="mil-font-3 mil-accent">Jane Meldrum</h4>
+                    <h4 className="mil-font-3 mil-accent-2">Jane Meldrum</h4>
                     <p className="mil-text-sm">CEO &amp; Co-Founder</p>
                   </div>
                 </Link>

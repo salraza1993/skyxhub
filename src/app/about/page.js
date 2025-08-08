@@ -1,7 +1,14 @@
-import ContactForm from "../../components/ContactForm";
+import IntoSection from "@components/sections/aboutPage/IntoSection";
 import PageBanner from "../../components/PageBanner";
 import Layouts from "../../layouts/Layouts";
-import Link from "next/link";
+import AboutSpecialSection from "@/src/components/sections/aboutPage/AboutSpecialSection";
+import PartnersSection from "@/src/components/sections/Partners";
+import OurMission from "@/src/components/sections/aboutPage/OurMission";
+import Features2 from "@/src/components/sections/aboutPage/Features2";
+import ContactSection from "@/src/components/sections/Contact";
+import Counter from "@/src/components/sections/aboutPage/Counter";
+import OurVision from "@/src/components/sections/aboutPage/OurVision";
+import WhyWorkWithUs from "@/src/components/sections/aboutPage/WhyWorkWithUs";
 
 export const metadata = {
   title: 'About Us - SKYXHUB',
@@ -11,34 +18,16 @@ export const metadata = {
 const About = () => {
   return (
     <Layouts>
-      <PageBanner pageName={"About us"} pageTitle={"Enterprise"} />
-      {/* call to action */}
-      <section className="mil-p-120-60">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-12 col-xl-6">
-              <h4 className="mil-mb-60">
-                Lorem ipsum dolor sit amet,{" "}
-                <span className="mil-accent">consectetur adipiscing elit</span>,
-                sed do eiusmod tempor incididunt ut labor aliqua.
-              </h4>
-            </div>
-            <div className="col-lg-12 col-xl-6">
-              <p className="mil-mb-60">
-                Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* call to action end */}
-      
-      {/* Rest of the about page content would go here */}
-      {/* For brevity, I'm including just the beginning - you can copy the rest from pages/about.jsx */}
+      <PageBanner pageName={"About us"} pageTitle={"ABOUT US:  SKYXHUB"} />
+      <IntoSection />
+      <AboutSpecialSection />
+      <Counter />
+      <PartnersSection />
+      <OurMission />
+      <OurVision />
+      <WhyWorkWithUs />
+      <Features2 />
+      <ContactSection />
     </Layouts>
   );
 };

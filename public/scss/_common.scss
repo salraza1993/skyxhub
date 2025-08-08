@@ -1,4 +1,4 @@
-@use 'variables' as *;
+@use "variables" as *;
 
 /* -------------------------------------------
 
@@ -8,31 +8,30 @@ main
 *,
 *:before,
 *:after {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
 
 html,
 body {
-    padding: 0;
-    margin: 0;
-    background-color: $bodyBg;
-    color: $bodyColor;
-    font-family: $font-2;
-    font-size: $text;
-    font-weight: 400;
-    color: $lt-40;
-    line-height: 170%;
-    overscroll-behavior: none;
-    scroll-behavior: smooth;
+	padding: 0;
+  margin: 0;
+	background-color: $bodyBg;
+  font-family: $font-2;
+  font-size: $text;
+  font-weight: 400;
+  color: $dt-40;
+  line-height: 170%;
+  overscroll-behavior: none;
+  scroll-behavior: smooth;
 }
 
 .mil-wrapper {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: auto;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: auto;
 }
 
 /* -------------------------------------------
@@ -52,183 +51,208 @@ h5,
 .mil-h5,
 h6,
 .mil-h6 {
-    font-family: $font-1;
-    color: $bodyColor;
-    font-weight: 600;
-    line-height: 140%;
+	font-family: $font-1;
+	color: $dark;
+	font-weight: 600;
+	line-height: 140%;
 
-    & .mil-font-3 {
-        white-space: nowrap;
-    }
+	& .mil-font-3 {
+		white-space: nowrap;
+	}
 }
 
 h1,
 .mil-h1 {
-    font-size: $h1;
+	font-size: $h1;
 
-    @media screen and (max-width: 992px) {
-        font-size: $h2;
-    }
+	@media screen and (max-width: 992px) {
+		font-size: $h2;
+	}
 
-    @media screen and (max-width: 768px) {
-        font-size: $h2 - 4px;
-    }
+	@media screen and (max-width: 768px) {
+		font-size: $h2 - 4px;
+	}
 }
 
 h2,
 .mil-h2 {
-    font-size: $h2;
+	font-size: $h2;
 
-    @media screen and (max-width: 992px) {
-        font-size: $h3 + 6px;
-    }
+	@media screen and (max-width: 992px) {
+		font-size: $h3 + 6px;
+	}
 
-    @media screen and (max-width: 768px) {
-        font-size: $h3 + 3px;
-    }
+	@media screen and (max-width: 768px) {
+		font-size: $h3 + 3px;
+	}
 }
 
 h3,
 .mil-h3 {
-    font-size: $h3;
+	font-size: $h3;
 
-    &.mil-up-font {
-        font-size: $h3 + 10px;
+	&.mil-up-font {
+		font-size: $h3 + 10px;
 
-        @media screen and (max-width: 992px) {
-            font-size: $h3;
-        }
-    }
+		@media screen and (max-width: 992px) {
+			font-size: $h3;
+		}
+	}
 }
 
 h4,
 .mil-h4 {
-    font-size: $h4;
+	font-size: $h4;
 
-    @media screen and (max-width: 992px) {
-        font-size: $h5 + 6px;
-    }
+	@media screen and (max-width: 992px) {
+		font-size: $h5 + 6px;
+	}
 
-    @media screen and (max-width: 768px) {
-        font-size: $h5 + 3px;
-    }
+	@media screen and (max-width: 768px) {
+		font-size: $h5 + 3px;
+	}
 }
 
 h5,
 .mil-h5 {
-    font-size: $h5;
+	font-size: $h5;
 
-    @media screen and (max-width: 992px) {
-        font-size: $h6 + 6px;
-    }
+	@media screen and (max-width: 992px) {
+		font-size: $h6 + 6px;
+	}
 
-    @media screen and (max-width: 768px) {
-        font-size: $h6 + 3px;
-    }
+	@media screen and (max-width: 768px) {
+		font-size: $h6 + 3px;
+	}
 }
 
 h6,
 .mil-h6 {
-    font-size: $h6;
+	font-size: $h6;
 }
 
-.mil-bold {
-    font-weight: 500;
-}
-.mil-bold-700 {
-    font-weight: 700;
-}
+.mil-bold { font-weight: 500; }
+.mil-font-100 { font-weight: 100 !important; }
+.mil-font-200 { font-weight: 200 !important; }
+.mil-font-300 { font-weight: 300 !important; }
+.mil-font-400 { font-weight: 400 !important; }
+.mil-font-500 { font-weight: 500 !important; }
+.mil-font-600 { font-weight: 600 !important; }
+.mil-font-700 { font-weight: 700 !important; }
+.mil-font-800 { font-weight: 800 !important; }
+.mil-font-900 { font-weight: 900 !important; }
 
 a {
-    color: inherit;
-    text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 .mil-suptitle {
-    font-size: 18px;
-    display: inline-block;
-    color: $bodyColor;
-    font-weight: 500;
-    font-family: $font-1;
+	font-size: 18px;
+	display: inline-block;
+	color: $light;
+	font-weight: 500;
+	font-family: $font-1;
 
-    &.mil-suptitle-2 {
-        font-size: 16px;
-        position: relative;
-        padding-left: 15px;
+	&.mil-suptitle-2 {
+		font-size: 16px;
+		position: relative;
+		padding-left: 15px;
 
-        &:before {
-            content: '';
-            width: 7px;
-            height: 7px;
-            border-radius: 50%;
-            background-color: $accent;
-            position: absolute;
-            left: 0;
-            top: 9px;
-        }
-    }
+		&:before {
+			content: "";
+			width: 7px;
+			height: 7px;
+			border-radius: 50%;
+			background-color: $accent-2;
+			position: absolute;
+			left: 0;
+			top: 9px;
+		}
+	}
 }
 
 .mil-font-1 {
-    font-family: $font-1;
+	font-family: $font-1;
 }
 
 .mil-font-2 {
-    font-family: $font-2;
+	font-family: $font-2;
 }
 
 .mil-font-3 {
-    font-family: $font-3;
+	font-family: $font-3;
 }
 
 .mil-uppercase {
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 .mil-accent {
-    color: $accent;
+	color: $accent;
+}
+.mil-accent-1 {
+	color: $accent-1;
+}
+.mil-accent-2 {
+	color: $accent-2;
+}
+.mil-accent-3 {
+	color: $accent-3;
+}
+.mil-accent-4 {
+	color: $accent-4;
+}
+.mil-accent-5 {
+	color: $accent-5;
 }
 
 .mil-light {
-    color: $light;
+	color: $light;
 }
 
 .mil-dark {
-    color: $dark;
+	color: $dark;
+}
+
+.mil-dark-bg {
+	background-color: $dark;
+}
+.mil-dark-color {
+	color: $light;
 }
 
 .mil-light-soft {
-    color: $lt-80;
+	color: $lt-80;
 }
 
 .mil-dark-soft {
-    color: $lt-80;
+	color: $dt-80;
 }
 
 .mil-text-sm {
-    font-size: $text - 2px;
+	font-size: $text - 2px;
 }
 
 .mil-text-lg {
-    font-size: $text + 2px;
-    line-height: 220%;
+	font-size: $text + 2px;
+	line-height: 220%;
 }
 
 .mil-text-center {
-    text-align: center;
+	text-align: center;
 }
 
-
 blockquote {
-    background-color: $lt-5;
-    padding: 60px;
-    border-radius: 10px;
-    color: $dark;
-    font-style: italic;
+	background-color: $lt-5;
+	padding: 60px;
+	border-radius: 10px;
+	color: $dark;
+	font-style: italic;
 
-    @media screen and (max-width: 992px) {
-        padding: 30px;
-    }
+	@media screen and (max-width: 992px) {
+		padding: 30px;
+	}
 }
 
 /* -------------------------------------------
@@ -237,225 +261,273 @@ list
 
 ------------------------------------------- */
 .mil-simple-list {
-    padding: 0;
-    margin: 0;
+	padding: 0;
+	margin: 0;
 
-    & li {
-        color: $dark;
-        margin-bottom: 15px;
-        list-style-type: none;
-        display: flex;
-        align-items: center;
+	& li {
+		color: $dark;
+		margin-bottom: 15px;
+		list-style-type: none;
+		display: flex;
+		align-items: center;
 
-        &:before {
-            content: '';
-            width: 7px;
-            height: 7px;
-            background-color: $accent;
-            border-radius: 50%;
-            left: 0;
-            top: 0;
-            margin-right: 15px;
-        }
-    }
+		&:before {
+			content: "";
+			width: 7px;
+			height: 7px;
+			background-color: $accent;
+			border-radius: 50%;
+			left: 0;
+			top: 0;
+			margin-right: 15px;
+		}
+	}
 }
 
 .mil-check-list {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 
-    & li {
-        color: $dark;
-        margin-bottom: 15px;
-        list-style-type: none;
-        display: flex;
-        align-items: center;
+	& li {
+		color: $dark;
+		margin-bottom: 15px;
+		list-style-type: none;
+		display: flex;
+		align-items: center;
 
-        &.mil-empty {
-            opacity: .2;
-            text-decoration: line-through;
+		&.mil-empty {
+			opacity: 0.2;
+			text-decoration: line-through;
 
-            &:before {
-                content: '';
-                margin-left: 3px;
-                width: 7px;
-                height: 7px;
-                background-color: $lt-30;
-                border-radius: 50%;
-                left: 0;
-                top: 0;
-                margin-right: 20px;
-            }
-        }
+			&:before {
+				content: "";
+				margin-left: 3px;
+				width: 7px;
+				height: 7px;
+				background-color: $lt-30;
+				border-radius: 50%;
+				left: 0;
+				top: 0;
+				margin-right: 20px;
+			}
+		}
 
-        &:before {
-            font-family: "Font Awesome 5 Free";
-            font-weight: 900;
-            content: "\f00c";
-            color: $accent;
-            border-radius: 50%;
-            left: 0;
-            top: 0;
-            margin-right: 15px;
-        }
-    }
+		&:before {
+			font-family: "Font Awesome 5 Free";
+			font-weight: 900;
+			content: "\f00c";
+			color: $accent;
+			border-radius: 50%;
+			left: 0;
+			top: 0;
+			margin-right: 15px;
+		}
+	}
 }
 
 .mil-dot-list {
-    display: flex;
+	display: flex;
 
-    & li {
-        display: flex;
-        list-style-type: none;
-        align-items: center;
-        margin-right: 15px;
+	& li {
+		display: flex;
+		list-style-type: none;
+		align-items: center;
+		margin-right: 15px;
 
-        &:before {
-            content: '';
-            width: 7px;
-            height: 7px;
-            background-color: $accent;
-            border-radius: 50%;
-            margin-right: 15px;
-        }
+		&:before {
+			content: "";
+			width: 7px;
+			height: 7px;
+			background-color: $accent;
+			border-radius: 50%;
+			margin-right: 15px;
+		}
 
-        &:first-child {
-            &:before {
-                display: none;
-            }
+		&:first-child {
+			&:before {
+				display: none;
+			}
+		}
 
-        }
-
-        &:last-child {
-            margin-right: 0;
-        }
-    }
+		&:last-child {
+			margin-right: 0;
+		}
+	}
 }
 
 .mil-check-icon-list {
-    & li {
-        display: flex;
-        margin-bottom: 15px;
+	& li {
+		display: flex;
+		margin-bottom: 15px;
 
-        & img {
-            margin-right: 15px;
-        }
+		& img {
+			margin-right: 15px;
+		}
 
-        &:last-child {
-            margin-bottom: 0;
-        }
-    }
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
 }
 
 .mil-hover-link-list {
-    & li {
-        list-style-type: none;
-        margin-bottom: 15px;
+	& li {
+		list-style-type: none;
+		margin-bottom: 15px;
 
-        & a {
-            display: flex;
-            align-items: center;
-            color: $dark;
-            transition: $t-sm;
+		& a {
+			display: flex;
+			align-items: center;
+			color: $dark;
+			transition: $t-sm;
 
-            &:before {
-                content: '';
-                width: 7px;
-                height: 7px;
-                background-color: $accent;
-                border-radius: 50%;
-                margin-right: 0;
-                transform: scale(0);
-                transition: $t-sm;
-            }
+			&:before {
+				content: "";
+				width: 7px;
+				height: 7px;
+				background-color: $accent;
+				border-radius: 50%;
+				margin-right: 0;
+				transform: scale(0);
+				transition: $t-sm;
+			}
 
-            &:hover {
-                color: $accent;
+			&:hover {
+				color: $accent;
 
-                &:before {
-                    margin-right: 10px;
-                    transform: scale(1);
-                }
-            }
-        }
+				&:before {
+					margin-right: 10px;
+					transform: scale(1);
+				}
+			}
+		}
 
-        &:last-child {
-            margin-bottom: 0;
-        }
-    }
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
 
-    &.mil-light {
-        & a {
-            color: $lt-60;
-
-        }
-    }
+	&.mil-light {
+		& a {
+			color: $lt-60;
+		}
+	}
 }
 
 .mil-list-title {
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 
-    &:before {
-        content: '';
-        width: 8px;
-        height: 8px;
-        border-radius: 50%;
-        margin-right: 15px;
-        background-color: $accent;
-    }
+	&:before {
+		content: "";
+		width: 8px;
+		height: 8px;
+		border-radius: 50%;
+		margin-right: 15px;
+		background-color: $accent;
+	}
 }
 
 .mil-social-links {
-    display: flex;
+	display: flex;
 
-    & li {
-        list-style-type: none;
-        margin-right: 30px;
+	& li {
+		list-style-type: none;
+		margin-right: 30px;
 
-        & a {
-            font-weight: 500;
-            color: $dark;
-            transition: $t-sm;
+		& a {
+			font-weight: 500;
+			color: $dark;
+			transition: $t-sm;
 
-            &:hover {
-                color: $accent;
-            }
-        }
-    }
+			&:hover {
+				color: $accent;
+			}
+		}
+	}
+}
+
+.mil-list {
+	position: relative;
+	list-style-type: disc;
+	list-style-position: inside;
+	padding-inline-start: 0.75rem;
+
+	&.mil-list-pills {
+		display: flex;
+		flex-wrap: wrap;
+		list-style: none;
+		gap: 0.75rem;
+
+		&.mil-light-soft {
+			.mil-list-item {
+				background-color: $primary-2;
+				color: $primary-5;
+				border: 1px solid $lt-15;
+			}
+		}
+
+		.mil-list-item {
+			background-color: $lt-10;
+			border: 1px solid $lt-15;
+			border-radius: $borderRadius;
+			padding-inline: 12px;
+			padding-block: 8px;
+			color: $lt-80;
+			font-weight: 400;
+			transition: $t-sm;
+			display: flex;
+			gap: 0.75rem;
+			font-size: $h5;
+			line-height: $h5 + 2px;
+
+			&:has(.icon) {
+				padding-inline-start: 6px;
+			}
+			.icon {
+				font-size: $h4;
+			}
+			&:hover {
+				background-color: $accent-5;
+				border-color: $accent-4;
+				color: $accent-1;
+				cursor: context-menu;
+			}
+		}
+	}
 }
 
 .mil-rec-res {
-    border-top: solid 1px $lt-10;
+	border-top: solid 1px $lt-10;
 
-    & li {
-        border-bottom: solid 1px $lt-10;
-        list-style-type: none;
+	& li {
+		border-bottom: solid 1px $lt-10;
+		list-style-type: none;
 
-        & a {
-            padding: 15px 0;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
+		& a {
+			padding: 15px 0;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
 
-            & span {
-                max-width: 80%;
-            }
+			& span {
+				max-width: 80%;
+			}
 
-            & i {
-                transform: translateX(-10px);
-                transition: $t-md;
-                color: $lt-20;
-            }
+			& i {
+				transform: translateX(-10px);
+				transition: $t-md;
+				color: $lt-20;
+			}
 
-            &:hover {
-                & i {
-                    transform: translateX(0);
-                    color: $accent;
-                }
-            }
-        }
-    }
+			&:hover {
+				& i {
+					transform: translateX(0);
+					color: $accent;
+				}
+			}
+		}
+	}
 }
 /* -------------------------------------------
 
@@ -463,55 +535,54 @@ flexbox
 
 ------------------------------------------- */
 .mil-flex-hori-center {
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 
-    @media screen and (max-width: 768px) {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+	@media screen and (max-width: 768px) {
+		flex-direction: column;
+		align-items: flex-start;
+	}
 }
 
 .mil-adaptive-right {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
 
-    @media screen and (max-width: 768px) {
-        justify-content: flex-start;
-    }
+	@media screen and (max-width: 768px) {
+		justify-content: flex-start;
+	}
 }
 
 .mil-relative {
-    position: relative;
+	position: relative;
 }
 
-
 .mil-adaptive-center {
-    @media screen and (max-width: 992px) {
-        text-align: center;
-    }
+	@media screen and (max-width: 992px) {
+		text-align: center;
+	}
 }
 
 .mil-fake-container {
-    width: 670px;
-    margin-left: auto;
-    padding-right: 180px;
+	width: 670px;
+	margin-left: auto;
+	padding-right: 180px;
 
-    @media screen and (max-width: 1400px) {
-        width: 570px;
-    }
+	@media screen and (max-width: 1400px) {
+		width: 570px;
+	}
 
-    @media screen and (max-width: 1200px) {
-        width: 100%;
-        padding: 120px;
-    }
+	@media screen and (max-width: 1200px) {
+		width: 100%;
+		padding: 120px;
+	}
 
-    @media screen and (max-width: 992px) {
-        width: 100%;
-        padding: 60px 30px;
-    }
+	@media screen and (max-width: 992px) {
+		width: 100%;
+		padding: 60px 30px;
+	}
 }
 
 /* -------------------------------------------
@@ -520,120 +591,124 @@ button
 
 ------------------------------------------- */
 .mil-button {
-    cursor: pointer;
-    height: 70px;
-    padding: 0 60px;
-    font-family: $font-2;
-    font-size: $h6;
-    color: $bodyColor;
-    font-weight: 500;
-    white-space: nowrap;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    box-shadow: inset 0 0 0 0 $accent;
-    border: solid 2px transparent;
-    border-radius: 40px;
-    text-decoration: none;
-    transition: $t-sm;
+	cursor: pointer;
+	height: 60px;
+	padding: 0 40px;
+	font-family: $font-2;
+	font-size: $h5;
+	color: $dark;
+	font-weight: 500;
+	white-space: nowrap;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	box-shadow: inset 0 0 0 0 $accent;
+	border: solid 2px transparent;
+	border-radius: 40px;
+	text-decoration: none;
+	transition: $t-sm;
 
-    &.mil-button-sm {
-        height: 50px;
-        padding: 0 40px;
-        font-size: $h6 - 2px;
-    }
+	&.mil-button-light {
+		color: $primary-1;
+	}
 
-    &.mil-button-xs {
-        height: 40px;
-        padding: 0 30px;
-        font-size: $h6 - 4px;
-    }
+	&.mil-button-sm {
+		height: 50px;
+		padding: 0 40px;
+		font-size: $h6 - 2px;
+	}
 
-    &.mil-border {
-        border-color: $accent;
-        background-color: transparent;
+	&.mil-button-xs {
+		height: 40px;
+		padding: 0 30px;
+		font-size: $h6 - 4px;
+	}
 
-        &:hover {
-            box-shadow: inset 0 0 0 1px $accent;
-            backdrop-filter: blur(10px);
-        }
+	&.mil-border {
+		border-color: $accent-2;
+		background-color: transparent;
 
-        &.mil-gray-border {
-            border-color: $lt-10;
+		&:hover {
+			box-shadow: inset 0 0 0 2px $accent-2;
+			backdrop-filter: blur(10px);
+		}
 
-            &:hover {
-                box-shadow: inset 0 0 0 1px $lt-10;
-                backdrop-filter: blur(10px);
-            }
-        }
-    }
+		&.mil-gray-border {
+			border-color: $lt-10;
 
-    &.mil-light {
-        color: $light;
-    }
+			&:hover {
+				box-shadow: inset 0 0 0 1px $lt-10;
+				backdrop-filter: blur(10px);
+			}
+		}
+	}
 
-    &.mil-fw {
-        width: 100%;
-    }
+	&.mil-light {
+		color: $light;
+	}
 
-    &.mil-light-bg {
-        background-color: $light;
-        border-color: transparent;
-    }
+	&.mil-fw {
+		width: 100%;
+	}
 
-    &.mil-accent-bg {
-        background-color: $accent;
-        color: $accentColor;
-        border-color: transparent;
+	&.mil-light-bg {
+		background-color: $light;
+		border-color: transparent;
+	}
 
-        &:hover {
-            filter: brightness(115%);
-        }
-    }
+	&.mil-accent-bg {
+		background-color: $accent;
+		color: $accentColor;
+		border-color: transparent;
 
-    &.mil-icon-button {
-        padding: 0;
-        width: 70px;
+		&:hover {
+			filter: brightness(115%);
+		}
+	}
 
-        & .fa-play {
-            transform: translateX(2px) translateY(1px);
-        }
-    }
+	&.mil-icon-button {
+		padding: 0;
+		width: 70px;
+
+		& .fa-play {
+			transform: translateX(2px) translateY(1px);
+		}
+	}
 }
 
 .mil-button-with-label {
-    display: flex;
-    align-items: center;
-    font-weight: 500;
+	display: flex;
+	align-items: center;
+	font-weight: 500;
 
-    & .mil-button {
-        margin-right: 25px;
-    }
+	& .mil-button {
+		margin-right: 25px;
+	}
 }
 
 .mil-buttons-frame {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
 
-    & .mil-button {
-        margin-right: 30px;
-    }
+	& .mil-button {
+		margin-right: 30px;
+	}
 
-    &.mil-buttons-frame-center {
-        justify-content: center;
-    }
+	&.mil-buttons-frame-center {
+		justify-content: center;
+	}
 
-    @media screen and (max-width: 768px) {
-        flex-direction: column;
-        align-items: flex-start;
+	@media screen and (max-width: 768px) {
+		flex-direction: column;
+		align-items: flex-start;
 
-        & .mil-button {
-            margin-right: 0;
-            margin-bottom: 20px;
-        }
-    }
+		& .mil-button {
+			margin-right: 0;
+			margin-bottom: 20px;
+		}
+	}
 }
 
 /* -------------------------------------------
@@ -643,57 +718,56 @@ link
 ------------------------------------------- */
 
 .mil-link {
-    font-family: $font-1;
-    font-size: $h6;
-    color: $bodyColor;
-    font-weight: 600;
-    white-space: nowrap;
-    display: inline-flex;
-    align-items: center;
-    text-decoration: none;
+	font-family: $font-1;
+	font-size: $h6;
+	color: $dark;
+	font-weight: 600;
+	white-space: nowrap;
+	display: inline-flex;
+	align-items: center;
+	text-decoration: none;
 
-    &.mil-link-sm {
-        font-size: $h6 - 2px;
-    }
+	&.mil-link-sm {
+		font-size: $h6 - 2px;
+	}
 
-    & i {
-        font-size: 12px;
-        margin-left: 15px;
-        background-color: $accent;
-        color: $accentColor;
-        width: 35px;
-        height: 35px;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: $t-sm;
-    }
+	& i {
+		font-size: 12px;
+		margin-left: 15px;
+		background-color: $accent-2;
+		color: $accentColorLight;
+		width: 35px;
+		height: 35px;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		transition: $t-sm;
+	}
 
+	&:hover {
+		& i {
+			transform: translateX(5px);
+			filter: brightness(115%);
+		}
+	}
 
-    &:hover {
-        & i {
-            transform: translateX(5px);
-            filter: brightness(115%);
-        }
-    }
+	&.link-left {
+		& i {
+			margin-right: 15px;
+			margin-left: 0;
+		}
 
-    &.link-left {
-        & i {
-            margin-right: 15px;
-            margin-left: 0;
-        }
+		&:hover {
+			& i {
+				transform: translateX(-5px);
+			}
+		}
+	}
 
-        &:hover {
-            & i {
-                transform: translateX(-5px);
-            }
-        }
-    }
-    
-    &.mil-light {
-        color: $light;
-    }
+	&.mil-light {
+		color: $light;
+	}
 }
 
 /* -------------------------------------------
@@ -702,357 +776,349 @@ form
 
 ------------------------------------------- */
 .mil-input-frame {
-    & label {
-        display: block;
-        font-family: $font-1;
-        font-weight: 500;
+	& label {
+		display: block;
+		font-family: $font-1;
+		font-weight: 500;
 
-        & span {
-            margin-right: 15px;
-        }
-    }
+		& span {
+			margin-right: 15px;
+		}
+	}
 
-    & input {
-        width: 100%;
-        height: 70px;
-        font-family: $font-2;
-        color: $light;
-        font-weight: 400;
-        background-color: transparent;
-        border: none;
-        border-bottom: solid 2px $lt-10;
-        transition: $t-md;
+	& input {
+		width: 100%;
+		height: 70px;
+		font-family: $font-2;
+		color: $light;
+		font-weight: 400;
+		background-color: transparent;
+		border: none;
+		border-bottom: solid 2px $lt-10;
+		transition: $t-md;
 
-        &:hover {
-            outline: inherit;
-            border-bottom: solid 2px $lt-20;
-        }
+		&:hover {
+			outline: inherit;
+			border-bottom: solid 2px $lt-20;
+		}
 
-        &:focus {
-            outline: inherit;
-            border-bottom: solid 2px $lt-40;
-        }
+		&:focus {
+			outline: inherit;
+			border-bottom: solid 2px $lt-40;
+		}
 
-        &::placeholder {
-            color: $lt-30;
-        }
-    }
+		&::placeholder {
+			color: $lt-30;
+		}
+	}
 
-    & textarea {
-        padding-top: 30px;
-        width: 100%;
-        height: 318px;
-        font-family: $font-2;
-        color: $light;
-        font-weight: 400;
-        background-color: transparent;
-        border: none;
-        border-bottom: solid 2px $lt-10;
-        transition: $t-md;
+	& textarea {
+		padding-top: 30px;
+		width: 100%;
+		height: 318px;
+		font-family: $font-2;
+		color: $light;
+		font-weight: 400;
+		background-color: transparent;
+		border: none;
+		border-bottom: solid 2px $lt-10;
+		transition: $t-md;
 
-        &::placeholder {
-            color: $lt-30;
-        }
+		&::placeholder {
+			color: $lt-30;
+		}
 
-        &.mil-shortened {
-            height: 200px;
-        }
+		&.mil-shortened {
+			height: 200px;
+		}
 
-        @media screen and (max-width: 992px) {
-            height: 200px;
-        }
+		@media screen and (max-width: 992px) {
+			height: 200px;
+		}
 
-        &:hover {
-            outline: inherit;
-            border-bottom: solid 2px $lt-20;
-        }
+		&:hover {
+			outline: inherit;
+			border-bottom: solid 2px $lt-20;
+		}
 
-        &:focus {
-            outline: inherit;
-            border-bottom: solid 2px $lt-40;
-        }
-    }
+		&:focus {
+			outline: inherit;
+			border-bottom: solid 2px $lt-40;
+		}
+	}
 
-    &.mil-dark-input {
+	&.mil-dark-input {
+		& input,
+		& textarea {
+			border-bottom: solid 2px $lt-10;
+			color: $dark;
 
-        & input,
-        & textarea {
-            border-bottom: solid 2px $lt-10;
-            color: $dark;
+			&:hover {
+				border-bottom: solid 2px $lt-20;
+			}
 
-            &:hover {
-                border-bottom: solid 2px $lt-20;
-            }
-
-            &:focus {
-                border-bottom: solid 2px $lt-40;
-            }
-        }
-    }
+			&:focus {
+				border-bottom: solid 2px $lt-40;
+			}
+		}
+	}
 }
 
 .mil-subscribe-form {
-    position: relative;
-    width: 100%;
+	position: relative;
+	width: 100%;
 
-    & input {
-        padding: 0 60px;
-        height: 80px;
-        width: 100%;
-        border: none;
-        border-radius: 40px;
-        font-family: $font-2;
-        font-size: $h6;
-        color: $dark;
-        font-weight: 400;
-        background-color: $dark-30;
+	& input {
+		padding: 0 60px;
+		height: 80px;
+		width: 100%;
+		border: none;
+		border-radius: 40px;
+		font-family: $font-2;
+		font-size: $h6;
+		color: $dark;
+		font-weight: 400;
+		background-color: $dark-30;
 
-        &:focus {
-            outline: inherit;
-        }
+		&:focus {
+			outline: inherit;
+		}
 
-        &::placeholder {
-            color: $lt-30;
-        }
-    }
+		&::placeholder {
+			color: $lt-30;
+		}
+	}
 
-    & button {
-        cursor: pointer;
-        position: absolute;
-        right: 5px;
-        top: 5px;
-    }
+	& button {
+		cursor: pointer;
+		position: absolute;
+		right: 5px;
+		top: 5px;
+	}
 
-    @media screen and (max-width: 768px) {
-        & input {
-            text-align: center;
-            padding: 0 30px;
-            height: 70px;
-        }
+	@media screen and (max-width: 768px) {
+		& input {
+			text-align: center;
+			padding: 0 30px;
+			height: 70px;
+		}
 
-        & button {
-            margin-top: 5px;
-            position: static;
-            width: 100%;
-        }
-    }
+		& button {
+			margin-top: 5px;
+			position: static;
+			width: 100%;
+		}
+	}
 }
 
 .mil-rounded-input {
-    width: 100%;
-    height: 70px;
-    padding: 0 30px;
-    background-color: $dark-20;
-    border: none;
-    border-radius: 40px;
-    font-family: $font-2;
-    font-size: $h6;
-    color: $dark;
-    font-weight: 400;
+	width: 100%;
+	height: 70px;
+	padding: 0 30px;
+	background-color: $dark-20;
+	border: none;
+	border-radius: 40px;
+	font-family: $font-2;
+	font-size: $h6;
+	color: $dark;
+	font-weight: 400;
 
-    &::placeholder {
-        color: $lt-30;
-    }
+	&::placeholder {
+		color: $lt-30;
+	}
 
-    &:focus {
-        outline: inherit;
-    }
+	&:focus {
+		outline: inherit;
+	}
 }
 
 .mil-sidebar-input-frame {
-    position: relative;
+	position: relative;
 
-    & .mil-sidebar-input {
-        width: 100%;
-        height: 70px;
-        padding: 0 30px;
-        background-color: $light;
-        border: solid 2px $lt-10;
-        border-radius: 40px;
-        font-family: $font-2;
-        font-size: $h6;
-        color: $dark;
-        font-weight: 400;
+	& .mil-sidebar-input {
+		width: 100%;
+		height: 70px;
+		padding: 0 30px;
+		background-color: $light;
+		border: solid 2px $lt-10;
+		border-radius: 40px;
+		font-family: $font-2;
+		font-size: $h6;
+		color: $dark;
+		font-weight: 400;
 
-        &::placeholder {
-            color: $lt-30;
-        }
+		&::placeholder {
+			color: $lt-30;
+		}
 
-        &:focus {
-            outline: inherit;
-        }
-    }
+		&:focus {
+			outline: inherit;
+		}
+	}
 
-    & button {
-        cursor: pointer;
-        position: absolute;
-        top: 5px;
-        right: 5px;
-        height: 60px;
-        width: 60px;
-        border-radius: 50%;
-        color: $light;
-        background-color: $accent;
-        border: none;
-        transition: $t-md;
+	& button {
+		cursor: pointer;
+		position: absolute;
+		top: 5px;
+		right: 5px;
+		height: 60px;
+		width: 60px;
+		border-radius: 50%;
+		color: $light;
+		background-color: $accent;
+		border: none;
+		transition: $t-md;
 
-        &:hover {
-            filter: brightness(110%);
-
-        }
-    }
+		&:hover {
+			filter: brightness(110%);
+		}
+	}
 }
 
 // attach file
 
 .mil-attach-frame {
-    display: flex;
-    flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 
-    & i {
-        transform: translateY(3px);
-        font-size: 18px;
-        color: $light;
-        margin-right: 15px;
-    }
+	& i {
+		transform: translateY(3px);
+		font-size: 18px;
+		color: $light;
+		margin-right: 15px;
+	}
 
-    & .mil-custom-file-input {
-        font-family: $font-1;
-        color: $light;
-        cursor: pointer;
-        transition: $t-sm;
+	& .mil-custom-file-input {
+		font-family: $font-1;
+		color: $light;
+		cursor: pointer;
+		transition: $t-sm;
 
-        &.mil-with-file {
-            color: $accent;
-        }
+		&.mil-with-file {
+			color: $accent;
+		}
 
-        & input[type="file"] {
-            width: 0;
-            height: 0;
-            opacity: 0;
-            position: absolute;
-        }
+		& input[type="file"] {
+			width: 0;
+			height: 0;
+			opacity: 0;
+			position: absolute;
+		}
 
-        &:hover {
-            color: $accent;
-        }
-    }
+		&:hover {
+			color: $accent;
+		}
+	}
 
-    & .mil-text-sm {
-        width: 100%;
-        margin-left: 30px;
-    }
+	& .mil-text-sm {
+		width: 100%;
+		margin-left: 30px;
+	}
 
-    &.mil-dark {
-        & i {
-            color: $dark;
-        }
+	&.mil-dark {
+		& i {
+			color: $dark;
+		}
 
-        & .mil-custom-file-input {
-            color: $dark;
+		& .mil-custom-file-input {
+			color: $dark;
 
-            &.mil-with-file {
-                color: $accent;
-            }
+			&.mil-with-file {
+				color: $accent;
+			}
 
-            &:hover {
-                color: $accent;
-            }
-        }
-    }
+			&:hover {
+				color: $accent;
+			}
+		}
+	}
 }
-
 
 // checkbox
 
 .mil-checbox-frame {
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 
-    & label {
-        line-height: 250%;
-    }
+	& label {
+		line-height: 250%;
+	}
 
-    & .mil-checkbox {
-        position: absolute;
-        opacity: 0;
+	& .mil-checkbox {
+		position: absolute;
+		opacity: 0;
 
-        & + label {
-            position: relative;
-            cursor: pointer;
-            padding: 0;
-        }
+		& + label {
+			position: relative;
+			cursor: pointer;
+			padding: 0;
+		}
 
-        & + label:before {
-            content: '';
-            margin-top: -2px;
-            margin-right: 15px;
-            display: inline-block;
-            vertical-align: text-top;
-            border: solid 1px $light;
-            border-radius: 2px;
-            width: 20px;
-            height: 20px;
-            background-color: transparent;
-            transition: $t-sm;
-        }
+		& + label:before {
+			content: "";
+			margin-top: -2px;
+			margin-right: 15px;
+			display: inline-block;
+			vertical-align: text-top;
+			border: solid 1px $light;
+			border-radius: 2px;
+			width: 20px;
+			height: 20px;
+			background-color: transparent;
+			transition: $t-sm;
+		}
 
-        &:hover + label:before {
-            background: $lt-10;
-            border: solid 1px $accent;
-        }
+		&:hover + label:before {
+			background: $lt-10;
+			border: solid 1px $accent;
+		}
 
-        &:checked + label:before {
-            background: $accent;
-            border: solid 1px $accent;
-        }
+		&:checked + label:before {
+			background: $accent;
+			border: solid 1px $accent;
+		}
 
-        &:disabled + label {
-            color: #b8b8b8;
-            cursor: auto;
-        }
+		&:disabled + label {
+			color: #b8b8b8;
+			cursor: auto;
+		}
 
-        &:disabled + label:before {
-            box-shadow: none;
-            background: #ddd;
-        }
+		&:disabled + label:before {
+			box-shadow: none;
+			background: #ddd;
+		}
 
-        &:checked + label:after {
-            content: '';
-            position: absolute;
-            left: 5px;
-            top: 15px;
-            background: $dark;
-            width: 2px;
-            height: 2px;
-            box-shadow:
-                2px 0 0 $dark,
-                4px 0 0 $dark,
-                4px -2px 0 $dark,
-                4px -4px 0 $dark,
-                4px -6px 0 $dark,
-                4px -8px 0 $dark;
-            transform: rotate(45deg);
-        }
-    }
+		&:checked + label:after {
+			content: "";
+			position: absolute;
+			left: 5px;
+			top: 13px;
+			background: $dark;
+			width: 2px;
+			height: 2px;
+			box-shadow: 2px 0 0 $dark, 4px 0 0 $dark, 4px -2px 0 $dark,
+				4px -4px 0 $dark, 4px -6px 0 $dark, 4px -8px 0 $dark;
+			transform: rotate(45deg);
+		}
+	}
 
-    &.mil-dark-input {
-        & .mil-checkbox {
-            & + label:before {
-                border-color: $lt-40;
-            }
+	&.mil-dark-input {
+		& .mil-checkbox {
+			& + label:before {
+				border-color: $lt-40;
+			}
 
-            &:hover + label:before {
-                background: $lt-10;
-                border: solid 1px $accent;
-            }
+			&:hover + label:before {
+				background: $lt-10;
+				border: solid 1px $accent;
+			}
 
-            &:checked + label:before {
-                background: $accent;
-                border: solid 1px $accent;
-            }
-        }
-    }
+			&:checked + label:before {
+				background: $accent;
+				border: solid 1px $accent;
+			}
+		}
+	}
 }
 
 /* -------------------------------------------
@@ -1061,45 +1127,53 @@ divider
 
 ------------------------------------------- */
 .mil-divider {
-    width: 100%;
-    height: 2px;
-    background-color: $lt-10;
-    position: relative;
+	$stripWidth: calc(15% / 1.618);
+	$stripWidth2: calc($stripWidth / 1.618);
+	width: 100%;
+	height: 2px;
+	background-color: $primary-2;
+	position: relative;
 
-    &:before,
-    &:after {
-        content: '';
-        width: 25px;
-        border-right: solid 5px $bodyBg;
-        height: 100%;
-        background-color: $accent;
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
+	&:before,
+	&:after {
+		content: "";
+		width: $stripWidth;
+		border-right: solid 0.5rem $bodyBg;
+		height: 100%;
+		background-color: $accent;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
 
-    &:after {
-        left: auto;
-        right: 0;
-        border-right: none;
-        border-left: solid 5px $bodyBg;
+	&:after {
+		left: auto;
+		right: 0;
+		border-right: none;
+		border-left: solid 0.5rem $bodyBg;
+	}
+	&.mil-divider-dark {
+		background-color: $primary-4;
+		&:before,
+		&:after {
+			border-color: $primary-5;
+		}
+	}
 
-    }
+	&.mil-light {
+		background-color: $lt-10;
 
-    &.mil-light {
-        background-color: $lt-10;
+		&:before,
+		&:after {
+			border-color: $dark;
+		}
+	}
 
-        &:before,
-        &:after {
-            border-color: $dark;
-        }
-    }
-
-    &.mil-divider-left {
-        &:after {
-            display: none;
-        }
-    }
+	&.mil-divider-left {
+		&:after {
+			display: none;
+		}
+	}
 }
 
 /* -------------------------------------------
@@ -1110,26 +1184,29 @@ decoration
 
 section,
 footer {
-    position: relative;
+	position: relative;
 }
 
 .mil-deco {
-    background-image: url(../img/deco/deco-1.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    z-index: -1;
-    width: 220px;
-    height: 140px;
+	background-image: url(../img/deco/deco-1.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	z-index: 0;
+	width: 220px;
+	height: 140px;
 
-    &.mil-deco-accent {
-        background-image: url(../img/deco/deco-2.svg);
-        z-index: 1;
-    }
+	&.mil-deco-accent {
+		background-image: url(../img/deco/deco-2.svg);
+		z-index: 1;
+	}
+	&.mil-deco-3 {
+		background-image: url(../img/deco/deco-3.svg);
+	}
 
-    @media screen and (max-width: 768px) {
-        display: none;
-    }
+	@media screen and (max-width: 768px) {
+		display: none;
+	}
 }
 
 /* -------------------------------------------
@@ -1138,34 +1215,39 @@ background
 
 ------------------------------------------- */
 .mil-deep-bg {
-    background-color: $lt-5;
+	background-color: $primary-2;
+	color: $primary-5;
 }
 
 .mil-dark-bg {
-    background-color: $dark;
+	background-color: $dark;
 }
 
 .mil-gradient-bg {
-    background: linear-gradient(180deg, rgba(#181d17, 1) 0%, $dark 100%);
+	background: linear-gradient(180deg, rgba(#181d17, 1) 0%, $dark 100%);
+}
+
+.mil-gradient-bg-45 {
+	background: linear-gradient(45deg, $primary-1 0%, $primary-2 100%);
 }
 
 .mil-deco-right {
-    overflow: hidden;
+	overflow: hidden;
 
-    &:after {
-        content: '';
-        width: 350px;
-        height: 350px;
-        background-color: $accent;
-        position: absolute;
-        top: -150px;
-        right: -150px;
-        border-radius: 50%;
+	&:after {
+		content: "";
+		width: 350px;
+		height: 350px;
+		background-color: $accent;
+		position: absolute;
+		top: -150px;
+		right: -150px;
+		border-radius: 50%;
 
-        @media screen and (max-width: 1200px) {
-            display: none;
-        }
-    }
+		@media screen and (max-width: 1200px) {
+			display: none;
+		}
+	}
 }
 
 /* -------------------------------------------
@@ -1175,201 +1257,282 @@ spaces
 ------------------------------------------- */
 
 .mil-mt-60-adapt {
-    margin-top: 60px;
+	margin-top: 60px;
 
-    @media screen and (max-width: 768px) {
-        margin-top: 30px;
-    }
+	@media screen and (max-width: 768px) {
+		margin-top: 30px;
+	}
 }
 
 .mil-mt-70-adapt {
-    margin-top: 60px;
+	margin-top: 60px;
 
-    @media screen and (max-width: 768px) {
-        margin-top: 30px;
-    }
+	@media screen and (max-width: 768px) {
+		margin-top: 30px;
+	}
 }
 
 .mil-mb-60-adapt {
-    margin-bottom: 60px;
+	margin-bottom: 60px;
 
-    @media screen and (max-width: 768px) {
-        margin-bottom: 30px;
-    }
+	@media screen and (max-width: 768px) {
+		margin-bottom: 30px;
+	}
 }
 
-.mil-mr-15 {
-    margin-right: 15px;
-}
+.mil-ml-10 { margin-left: 10px; }
+.mil-ml-15 { margin-left: 15px; }
+.mil-ml-20 { margin-left: 20px; }
+.mil-ml-25 { margin-left: 25px; }
+.mil-ml-30 { margin-left: 30px; }
+.mil-ml-35 { margin-left: 35px; }
+.mil-ml-40 { margin-left: 40px; }
+.mil-ml-45 { margin-left: 45px; }
+.mil-ml-50 { margin-left: 50px; }
 
-.mil-mr-30 {
-    margin-right: 30px;
-}
+.mil-mr-10 { margin-right: 10px; }
+.mil-mr-15 { margin-right: 15px; }
+.mil-mr-20 { margin-right: 20px; }
+.mil-mr-25 { margin-right: 25px; }
+.mil-mr-30 { margin-right: 30px; }
+.mil-mr-35 { margin-right: 35px; }
+.mil-mr-40 { margin-right: 40px; }
+.mil-mr-45 { margin-right: 45px; }
+.mil-mr-50 { margin-right: 50px; }
 
 .mil-mt-15 {
-    margin-top: 15px !important;
+	margin-top: 15px !important;
 
-    @media screen and (max-width: 992px) {
-        margin-top: 0 !important;
-    }
+	@media screen and (max-width: 992px) {
+		margin-top: 0 !important;
+	}
 }
 
 .mil-mt-30 {
-    margin-top: 30px !important;
+	margin-top: 30px !important;
 }
 
 .mil-mt-60 {
-    margin-top: 60px !important;
+	margin-top: 60px !important;
 }
 
 .mil-mb-5 {
-    margin-bottom: 5px !important;
+	margin-bottom: 5px !important;
 }
 
 .mil-mb-10 {
-    margin-bottom: 5px !important;
+	margin-bottom: 5px !important;
 }
 
 .mil-mb-15 {
-    margin-bottom: 15px !important;
+	margin-bottom: 15px !important;
 }
 
 .mil-mb-20 {
-    margin-bottom: 20px !important;
+	margin-bottom: 20px !important;
 }
 
 .mil-mb-30-adapt {
-    margin-bottom: 30px;
+	margin-bottom: 30px;
 
-    @media screen and (max-width: 992px) {
-        margin-bottom: 0;
-    }
+	@media screen and (max-width: 992px) {
+		margin-bottom: 0;
+	}
 }
 
 .mil-mb-30 {
-    margin-bottom: 30px !important;
+  margin-bottom: 30px !important;
+}
+
+.mil-mb-40 {
+  margin-bottom: 40px !important;
 }
 
 .mil-mb-50 {
-    margin-bottom: 50px !important;
+	margin-bottom: 50px !important;
 }
 
 .mil-mb-60 {
-    margin-bottom: 60px !important;
+	margin-bottom: 60px !important;
 }
 
 .mil-mb-90 {
-    margin-bottom: 90px;
+	margin-bottom: 90px;
 
-    @media screen and (max-width: 992px) {
-        margin-bottom: 60px;
-    }
+	@media screen and (max-width: 992px) {
+		margin-bottom: 60px;
+	}
 }
 
 .mil-mb-120 {
-    margin-bottom: 120px;
+	margin-bottom: 120px;
 
-    @media screen and (max-width: 992px) {
-        margin-bottom: 60px;
-    }
+	@media screen and (max-width: 992px) {
+		margin-bottom: 60px;
+	}
 }
 
 .mil-p-90-90 {
-    padding-top: 90px;
-    padding-bottom: 90px;
+	padding-top: 90px;
+	padding-bottom: 90px;
 
-    @media screen and (max-width: 992px) {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
+	@media screen and (max-width: 992px) {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
 }
 
 .mil-p-90-60 {
-    padding-top: 90px;
-    padding-bottom: 60px;
+	padding-top: 90px;
+	padding-bottom: 60px;
 
-    @media screen and (max-width: 992px) {
-        padding-top: 60px;
-        padding-bottom: 30px;
-    }
+	@media screen and (max-width: 992px) {
+		padding-top: 60px;
+		padding-bottom: 30px;
+	}
 }
 
 .mil-p-120-120 {
-    padding-top: 120px;
-    padding-bottom: 120px;
+	padding-top: 120px;
+	padding-bottom: 120px;
 
-    @media screen and (max-width: 992px) {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
+	@media screen and (max-width: 992px) {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
 }
 
 .mil-p-120-90 {
-    padding-top: 120px;
-    padding-bottom: 90px;
+	padding-top: 120px;
+	padding-bottom: 90px;
 
-    @media screen and (max-width: 992px) {
-        padding-top: 60px;
-        padding-bottom: 30px;
-    }
+	@media screen and (max-width: 992px) {
+		padding-top: 60px;
+		padding-bottom: 30px;
+	}
 }
 
 .mil-p-120-60 {
-    padding-top: 120px;
-    padding-bottom: 60px;
+	padding-top: 120px;
+	padding-bottom: 60px;
 
-    @media screen and (max-width: 992px) {
-        padding-top: 60px;
-        padding-bottom: 0;
-    }
+	@media screen and (max-width: 992px) {
+		padding-top: 60px;
+		padding-bottom: 0;
+	}
 }
 
 .mil-p-120-0 {
-    padding-top: 120px;
-    padding-bottom: 0;
+	padding-top: 120px;
+	padding-bottom: 0;
 
-    @media screen and (max-width: 992px) {
-        padding-top: 60px;
-        padding-bottom: 0;
-    }
+	@media screen and (max-width: 992px) {
+		padding-top: 60px;
+		padding-bottom: 0;
+	}
 }
 
 .mil-p-0-120 {
-    padding-top: 0;
-    padding-bottom: 120px;
+	padding-top: 0;
+	padding-bottom: 120px;
 
-    @media screen and (max-width: 992px) {
-        padding-top: 0;
-        padding-bottom: 60px;
-    }
+	@media screen and (max-width: 992px) {
+		padding-top: 0;
+		padding-bottom: 60px;
+	}
 }
 
 .mil-p-120-30 {
-    padding-top: 120px;
-    padding-bottom: 30px;
+	padding-top: 120px;
+	padding-bottom: 30px;
 
-    @media screen and (max-width: 992px) {
-        padding-top: 60px;
-        padding-bottom: 0;
-    }
+	@media screen and (max-width: 992px) {
+		padding-top: 60px;
+		padding-bottom: 0;
+	}
 }
 
 .mil-p-90-120 {
-    padding-top: 90px;
-    padding-bottom: 120px;
+	padding-top: 90px;
+	padding-bottom: 120px;
 
-    @media screen and (max-width: 992px) {
-        padding-top: 30px;
-        padding-bottom: 60px;
-    }
+	@media screen and (max-width: 992px) {
+		padding-top: 30px;
+		padding-bottom: 60px;
+	}
 }
 
 .mil-p-0-90 {
-    padding-top: 0;
-    padding-bottom: 90px;
+	padding-top: 0;
+	padding-bottom: 90px;
 
-    @media screen and (max-width: 992px) {
-        padding-top: 0;
-        padding-bottom: 30px;
-    }
+	@media screen and (max-width: 992px) {
+		padding-top: 0;
+		padding-bottom: 30px;
+	}
+}
+
+.mil-underline-accent {
+	text-decoration-color: $accent;
+	text-decoration-line: underline;
+	text-decoration-thickness: 2px;
+	text-underline-offset: 5px;
+}
+
+
+.mil-contact-form {
+	position: relative;
+	// max-width: 700px;
+	// margin-inline: auto;
+
+	.mil-input-frame {
+		.mil-input, .mil-textarea {
+			background-color: $lt-10;
+			height: 60px;
+			font-size: $text;
+			padding-inline: 1rem;
+			padding-block: 1rem;
+			border-radius: $borderRadius;
+			height: 60px;
+			font-family: inherit;
+			appearance: none;
+			resize: none;
+			&:focus-within, &:focus {
+				outline: none;
+				border-color: $accent-2;
+				box-shadow: 0 0 0 1px $accent-2;
+			}
+		}
+		.mil-textarea {
+			height: 200px;
+		}
+	}
+	.mil-attach-frame {
+		position: relative;
+		display: flex;
+		.mil-attach-input {
+			width: 100%;
+			height: 60px;
+			display: flex;
+			.mil-custom-file-input {
+				background-color: $lt-10;
+				position: relative;
+				width: 100%;
+				display: flex;
+				align-items: center;
+				gap: 0rem;
+				padding: 1rem;
+				border-radius: $borderRadius;
+			}
+		}
+		.file-size-text {
+			position: absolute;
+			margin: 0;
+			inset-block-start: 100%;
+		}
+	}
+}
+
+.mil-balance {
+	text-wrap: balance;
 }
