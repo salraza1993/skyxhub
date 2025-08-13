@@ -55,7 +55,7 @@ const Solution3TabsSlider = () => {
                   data-swiper-parallax-opacity={0}
                 >
                   <div className="mil-icon-frame mil-icon-bg mil-icon-frame-md mil-mb-30">
-                    <img src="img/icons/md/24.svg" alt="icon" />
+                    <img src="/img/icons/md/24.svg" alt="icon" />
                   </div>
                   <div className="mil-mb-30">
                     <p>
@@ -79,7 +79,7 @@ const Solution3TabsSlider = () => {
                   data-swiper-parallax-opacity={0}
                 >
                   <div className="mil-icon-frame mil-icon-bg mil-icon-frame-md mil-mb-30">
-                    <img src="img/icons/md/22.svg" alt="icon" />
+                    <img src="/img/icons/md/22.svg" alt="icon" />
                   </div>
                   <div className="mil-mb-30">
                     <p>
@@ -103,7 +103,7 @@ const Solution3TabsSlider = () => {
                   data-swiper-parallax-opacity={0}
                 >
                   <div className="mil-icon-frame mil-icon-bg mil-icon-frame-md mil-mb-30">
-                    <img src="img/icons/md/21.svg" alt="icon" />
+                    <img src="/img/icons/md/21.svg" alt="icon" />
                   </div>
                   <div className="mil-mb-30">
                     <p>
@@ -127,7 +127,7 @@ const Solution3TabsSlider = () => {
                   data-swiper-parallax-opacity={0}
                 >
                   <div className="mil-icon-frame mil-icon-bg mil-icon-frame-md mil-mb-30">
-                    <img src="img/icons/md/20.svg" alt="icon" />
+                    <img src="/img/icons/md/20.svg" alt="icon" />
                   </div>
                   <div className="mil-mb-30">
                     <p>
@@ -151,7 +151,7 @@ const Solution3TabsSlider = () => {
                   data-swiper-parallax-opacity={0}
                 >
                   <div className="mil-icon-frame mil-icon-bg mil-icon-frame-md mil-mb-30">
-                    <img src="img/icons/md/19.svg" alt="icon" />
+                    <img src="/img/icons/md/19.svg" alt="icon" />
                   </div>
                   <div className="mil-mb-30">
                     <p>

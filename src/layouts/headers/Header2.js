@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Header2 = () => {
   return (
     <div className="mil-top-position mil-fixed has-additional-panel">
@@ -11,7 +13,7 @@ const Header2 = () => {
           </ul>
           <div className="mil-ap-call-to-action">
             <div className="mil-icon-frame mil-icon-frame-sm">
-              <img src="img/icons/sm/4.svg" alt="icon" />
+              <img src="/img/icons/sm/4.svg" alt="icon" />
             </div>
             <p>Find out how SKYXHUB Could save you over 2.400 US$ a year.</p>
           </div>
@@ -28,9 +30,7 @@ const Header2 = () => {
       <div className="mil-top-panel">
         {/* mil-top-panel-transparent */}
         <div className="container">
-          <Link href="/" legacyBehavior>
-            <a className="mil-logo" style={{ width: 140 }} />
-          </Link>
+          <Link href={'/'} className="mil-logo" style={{ width: 140 }} />
           <div className="mil-navigation">
             <nav>
               <ul>

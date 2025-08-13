@@ -59,7 +59,7 @@ const Service3NavTabs = () => {
                   data-swiper-parallax-opacity={0}
                 >
                   <div className="mil-icon-frame mil-icon-bg mil-icon-frame-md mil-mb-30">
-                    <img src="img/icons/md/22.svg" alt="icon" />
+                    <img src="/img/icons/md/22.svg" alt="icon" />
                   </div>
                   <div className="mil-mb-30">
                     <p>
@@ -83,7 +83,7 @@ const Service3NavTabs = () => {
                   data-swiper-parallax-opacity={0}
                 >
                   <div className="mil-icon-frame mil-icon-bg mil-icon-frame-md mil-mb-30">
-                    <img src="img/icons/md/22.svg" alt="icon" />
+                    <img src="/img/icons/md/22.svg" alt="icon" />
                   </div>
                   <div className="mil-mb-30">
                     <p>
@@ -107,7 +107,7 @@ const Service3NavTabs = () => {
                   data-swiper-parallax-opacity={0}
                 >
                   <div className="mil-icon-frame mil-icon-bg mil-icon-frame-md mil-mb-30">
-                    <img src="img/icons/md/22.svg" alt="icon" />
+                    <img src="/img/icons/md/22.svg" alt="icon" />
                   </div>
                   <div className="mil-mb-30">
                     <p>
@@ -131,7 +131,7 @@ const Service3NavTabs = () => {
                   data-swiper-parallax-opacity={0}
                 >
                   <div className="mil-icon-frame mil-icon-bg mil-icon-frame-md mil-mb-30">
-                    <img src="img/icons/md/22.svg" alt="icon" />
+                    <img src="/img/icons/md/22.svg" alt="icon" />
                   </div>
                   <div className="mil-mb-30">
                     <p>
@@ -155,7 +155,7 @@ const Service3NavTabs = () => {
                   data-swiper-parallax-opacity={0}
                 >
                   <div className="mil-icon-frame mil-icon-bg mil-icon-frame-md mil-mb-30">
-                    <img src="img/icons/md/22.svg" alt="icon" />
+                    <img src="/img/icons/md/22.svg" alt="icon" />
                   </div>
                   <div className="mil-mb-30">
                     <p>
@@ -179,7 +179,7 @@ const Service3NavTabs = () => {
                   data-swiper-parallax-opacity={0}
                 >
                   <div className="mil-icon-frame mil-icon-bg mil-icon-frame-md mil-mb-30">
-                    <img src="img/icons/md/22.svg" alt="icon" />
+                    <img src="/img/icons/md/22.svg" alt="icon" />
                   </div>
                   <div className="mil-mb-30">
                     <p>

@@ -11,8 +11,8 @@ const PriceTestimonialSlider = () => {
         >
           <SwiperSlide className="swiper-slide">
             <div className="mil-review mil-text-center">
-              <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <img src="img/icons/md/7.svg" alt="icon" />
+              <div className="mil-icon-frame mil-icon-frame-md mil-mb-30 mil-dark">
+                <img src="/img/icons/md/7.svg" alt="icon" />
               </div>
               <p className="mil-mb-30">
                 There are many variations of passages of Lorem Ipsum available,
@@ -39,7 +39,7 @@ const PriceTestimonialSlider = () => {
                 </ul>
               </div>
               <div className="mil-author">
-                <img src="img/faces/1.jpg" alt="Customer" />
+                <img src="/img/faces/1.jpg" alt="Customer" />
                 <div className="mil-name">
                   <h6>Margaret Williams</h6>
                   <span className="mil-text-sm">Agency Design</span>
@@ -50,7 +50,7 @@ const PriceTestimonialSlider = () => {
           <SwiperSlide className="swiper-slide">
             <div className="mil-review mil-text-center">
               <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <img src="img/icons/md/7.svg" alt="icon" />
+                <img src="/img/icons/md/7.svg" alt="icon" />
               </div>
               <p className="mil-mb-30">
                 There are many variations of passages of Lorem Ipsum available,
@@ -77,7 +77,7 @@ const PriceTestimonialSlider = () => {
                 </ul>
               </div>
               <div className="mil-author">
-                <img src="img/faces/2.jpg" alt="Customer" />
+                <img src="/img/faces/2.jpg" alt="Customer" />
                 <div className="mil-name">
                   <h6>Tamzyn French</h6>
                   <span className="mil-text-sm">Agency Design</span>
@@ -88,7 +88,7 @@ const PriceTestimonialSlider = () => {
           <SwiperSlide className="swiper-slide">
             <div className="mil-review mil-text-center">
               <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <img src="img/icons/md/7.svg" alt="icon" />
+                <img src="/img/icons/md/7.svg" alt="icon" />
               </div>
               <p className="mil-mb-30">
                 There are many variations of passages of Lorem Ipsum available,
@@ -115,7 +115,7 @@ const PriceTestimonialSlider = () => {
                 </ul>
               </div>
               <div className="mil-author">
-                <img src="img/faces/3.jpg" alt="Customer" />
+                <img src="/img/faces/3.jpg" alt="Customer" />
                 <div className="mil-name">
                   <h6>Margaret Williams</h6>
                   <span className="mil-text-sm">Agency Design</span>
@@ -126,7 +126,7 @@ const PriceTestimonialSlider = () => {
           <SwiperSlide className="swiper-slide">
             <div className="mil-review mil-text-center">
               <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <img src="img/icons/md/7.svg" alt="icon" />
+                <img src="/img/icons/md/7.svg" alt="icon" />
               </div>
               <p className="mil-mb-30">
                 There are many variations of passages of Lorem Ipsum available,
@@ -153,7 +153,7 @@ const PriceTestimonialSlider = () => {
                 </ul>
               </div>
               <div className="mil-author">
-                <img src="img/faces/4.jpg" alt="Customer" />
+                <img src="/img/faces/4.jpg" alt="Customer" />
                 <div className="mil-name">
                   <h6>Tamzyn French</h6>
                   <span className="mil-text-sm">Agency Design</span>
@@ -164,7 +164,7 @@ const PriceTestimonialSlider = () => {
           <SwiperSlide className="swiper-slide">
             <div className="mil-review mil-text-center">
               <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <img src="img/icons/md/7.svg" alt="icon" />
+                <img src="/img/icons/md/7.svg" alt="icon" />
               </div>
               <p className="mil-mb-30">
                 There are many variations of passages of Lorem Ipsum available,
@@ -191,7 +191,7 @@ const PriceTestimonialSlider = () => {
                 </ul>
               </div>
               <div className="mil-author">
-                <img src="img/faces/5.jpg" alt="Customer" />
+                <img src="/img/faces/5.jpg" alt="Customer" />
                 <div className="mil-name">
                   <h6>Margaret Williams</h6>
                   <span className="mil-text-sm">Agency Design</span>

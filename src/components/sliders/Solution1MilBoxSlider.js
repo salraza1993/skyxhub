@@ -6,7 +6,7 @@ const Solution1MilBoxSlider = () => {
       <div className="row m-0">
         <div className="col-xl-6 p-0 mil-relative">
           <img
-            src="img/photo/14.jpg"
+            src="/img/photo/14.jpg"
             className="mil-background-image"
             style={{ objectPosition: "center" }}
             data-swiper-parallax-scale="1.1"
@@ -30,7 +30,7 @@ const Solution1MilBoxSlider = () => {
                   <div className="mil-hori-box mil-mb-30">
                     <div className="mil-mr-15">
                       <div className="mil-icon-frame mil-light mil-icon-frame-md">
-                        <img src="img/icons/md/10.svg" alt="icon" />
+                        <img src="/img/icons/md/10.svg" alt="icon" />
                       </div>
                     </div>
                     <h5 className="mil-light">Facial Recognition</h5>
@@ -54,7 +54,7 @@ const Solution1MilBoxSlider = () => {
                   <div className="mil-hori-box mil-mb-30">
                     <div className="mil-mr-15">
                       <div className="mil-icon-frame mil-light mil-icon-frame-md">
-                        <img src="img/icons/md/11.svg" alt="icon" />
+                        <img src="/img/icons/md/11.svg" alt="icon" />
                       </div>
                     </div>
                     <h5 className="mil-light">Artificial Intelligence</h5>
@@ -78,7 +78,7 @@ const Solution1MilBoxSlider = () => {
                   <div className="mil-hori-box mil-mb-30">
                     <div className="mil-mr-15">
                       <div className="mil-icon-frame mil-light mil-icon-frame-md">
-                        <img src="img/icons/md/10.svg" alt="icon" />
+                        <img src="/img/icons/md/10.svg" alt="icon" />
                       </div>
                     </div>
                     <h5 className="mil-light">Facial Recognition</h5>
@@ -102,7 +102,7 @@ const Solution1MilBoxSlider = () => {
                   <div className="mil-hori-box mil-mb-30">
                     <div className="mil-mr-15">
                       <div className="mil-icon-frame mil-light mil-icon-frame-md">
-                        <img src="img/icons/md/11.svg" alt="icon" />
+                        <img src="/img/icons/md/11.svg" alt="icon" />
                       </div>
                     </div>
                     <h5 className="mil-light">Artificial Intelligence</h5>
@@ -132,7 +132,7 @@ const Solution1MilBoxSlider = () => {
           style={{ overflow: "hidden" }}
         >
           <img
-            src="img/photo/14.jpg"
+            src="/img/photo/14.jpg"
             className="mil-background-image"
             style={{ objectPosition: "center" }}
             data-swiper-parallax-scale="1.1"

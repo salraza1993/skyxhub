@@ -30,13 +30,13 @@ const Solution3BoxSlider = () => {
                   >
                     <div className="mil-circle-bg" />
                     <div className="mil-image-frame">
-                      <img src="img/faces/t6.png" alt="img" />
+                      <img src="/img/faces/t6.png" alt="img" />
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-7">
                   <div className="mil-icon-frame mil-light mil-icon-frame-sm mil-mb-60">
-                    <img src="img/icons/sm/11.svg" alt="icon" />
+                    <img src="/img/icons/sm/11.svg" alt="icon" />
                   </div>
                   <p className="mil-text-lg mil-light mil-mb-60">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -65,13 +65,13 @@ const Solution3BoxSlider = () => {
                   >
                     <div className="mil-circle-bg" />
                     <div className="mil-image-frame">
-                      <img src="img/faces/t1.png" alt="img" />
+                      <img src="/img/faces/t1.png" alt="img" />
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-7">
                   <div className="mil-icon-frame mil-light mil-icon-frame-sm mil-mb-60">
-                    <img src="img/icons/sm/11.svg" alt="icon" />
+                    <img src="/img/icons/sm/11.svg" alt="icon" />
                   </div>
                   <p className="mil-text-lg mil-light mil-mb-60">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -100,13 +100,13 @@ const Solution3BoxSlider = () => {
                   >
                     <div className="mil-circle-bg" />
                     <div className="mil-image-frame">
-                      <img src="img/faces/t2.png" alt="img" />
+                      <img src="/img/faces/t2.png" alt="img" />
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-7">
                   <div className="mil-icon-frame mil-light mil-icon-frame-sm mil-mb-60">
-                    <img src="img/icons/sm/11.svg" alt="icon" />
+                    <img src="/img/icons/sm/11.svg" alt="icon" />
                   </div>
                   <p className="mil-text-lg mil-light mil-mb-60">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed

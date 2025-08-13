@@ -17,7 +17,7 @@ const Solution2TabSlider = () => {
           <a href="#tab1" className="mil-active">
             <div>
               <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-15">
-                <img src="img/icons/md/20.svg" alt="icon" />
+                <img src="/img/icons/md/20.svg" alt="icon" />
               </div>
               <h6>DataOps</h6>
             </div>
@@ -25,7 +25,7 @@ const Solution2TabSlider = () => {
           <a href="#tab2">
             <div>
               <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-15">
-                <img src="img/icons/md/21.svg" alt="icon" />
+                <img src="/img/icons/md/21.svg" alt="icon" />
               </div>
               <h6>MLOps</h6>
             </div>

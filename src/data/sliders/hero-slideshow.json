@@ -1,34 +1,44 @@
 {
-    "title": { "first": "We Provide Services and Solutions To", "second": "Enterprise" },
-    "subtitle": { "first": "SKYXHUB: Where innovation", "second": "meets technology" },
-    "button": { "label": "Let’s Talk", "link": "/contact" },
-    "description": "we offer comprehensive IT services and cutting-edge travel technology solutions that help businesses in the travel industry succeed. Whether you are a travel agency, OTA, or Travel Management Company, we have the expertise and tools to drive your business forward.",
-    "slides": [
-        {
-            "image": "img/photo/1.jpg"
-        },
-        {
-            "image": "img/photo/2.jpg"
-        },
-        {
-            "image": "img/photo/3.jpg"
-        }
-    ],
-    "items": [
-        {
-            "label": "Dedicated Team",
-            "title": "Experts",
-            "text": "Focused, flexible, and committed to driving your success with seamless collaboration and expertise."
-        },
-        {
-            "label": "Developers",
-            "title": "Experts",
-            "text": "Skilled, innovative, and focused on delivering exceptional solutions tailored to your needs."
-        },
-        {
-            "label": "Designers",
-            "title": "Experts",
-            "text": "Creative, detail-oriented, and dedicated to crafting impactful and user-friendly designs."
-        }
-    ]
+  "title": {
+    "first": "We Provide Services and Solutions To",
+    "second": "Enterprise"
+  },
+  "subtitle": {
+    "first": "Where innovation",
+    "second": "meets technology",
+    "contentHtml": "Where <span class=\"mil-accent\">innovation</span> meets <span class=\"mil-accent\">technology</span>"
+  },
+  "button": {
+    "label": "Let's Talk",
+    "link": "/contact"
+  },
+  "description": "We offer comprehensive IT services and cutting-edge travel technology solutions that help businesses in the travel industry succeed. Whether you are a travel agency, OTA, or Travel Management Company, we have the expertise and tools to drive your business forward.",
+  "slides": [
+    {
+      "image": "img/photo/1.jpg"
+    },
+    {
+      "image": "img/photo/2.jpg"
+    },
+    {
+      "image": "img/photo/3.jpg"
+    }
+  ],
+  "items": [
+    {
+      "label": "Travel Tech Team",
+      "title": "Industry Experts",
+      "text": "Specialized in building B2B portals, white-label solutions, and seamless travel integrations tailored to your business."
+    },
+    {
+      "label": "API & Integration",
+      "title": "Tech Specialists",
+      "text": "Experts in travel content APIs, GDS/XML integrations, and scalable backend systems for modern travel businesses."
+    },
+    {
+      "label": "UI/UX & Branding",
+      "title": "Creative Designers",
+      "text": "Designing intuitive, user-friendly interfaces that elevate the digital experience for travel platforms and apps."
+    }
+  ]
 }

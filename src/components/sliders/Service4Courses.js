@@ -34,7 +34,7 @@ const Service4Courses = () => {
           <SwiperSlide className="swiper-slide">
             <a href="#." className="mil-card">
               <div className="mil-cover-frame mil-mb-15">
-                <img src="img/blog/1.jpg" alt="project" />
+                <img src="/img/blog/1.jpg" alt="project" />
               </div>
               <div className="mil-description">
                 <div className="mil-fw-descr">
@@ -75,7 +75,7 @@ const Service4Courses = () => {
           <SwiperSlide className="swiper-slide">
             <a href="#." className="mil-card">
               <div className="mil-cover-frame mil-mb-15">
-                <img src="img/projects/2.jpg" alt="project" />
+                <img src="/img/projects/2.jpg" alt="project" />
               </div>
               <div className="mil-description">
                 <div className="mil-fw-descr">
@@ -116,7 +116,7 @@ const Service4Courses = () => {
           <SwiperSlide className="swiper-slide">
             <a href="#." className="mil-card">
               <div className="mil-cover-frame mil-mb-15">
-                <img src="img/projects/1.jpg" alt="project" />
+                <img src="/img/projects/1.jpg" alt="project" />
               </div>
               <div className="mil-description">
                 <div className="mil-fw-descr">
@@ -160,7 +160,7 @@ const Service4Courses = () => {
           <SwiperSlide className="swiper-slide">
             <a href="#." className="mil-card">
               <div className="mil-cover-frame mil-mb-15">
-                <img src="img/blog/3.jpg" alt="project" />
+                <img src="/img/blog/3.jpg" alt="project" />
               </div>
               <div className="mil-description">
                 <div className="mil-fw-descr">

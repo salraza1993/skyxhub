@@ -5,21 +5,21 @@
         "items": [
             {
                 "num": "01",
-                "name": "Dedicated Team",
+                "name": "SkyXhub Marketplace",
                 "icon": "img/icons/md/1.svg",
-                "text": "Our dedicated team of travel technology experts works closely with you to provide bespoke solutions tailored to your business needs. From development to maintenance, our team ensures you receive ongoing support to keep your systems running smoothly and effectively."
+                "text": "A SaaS based Travel agent portal A NEXT-GENERATION B2B TRAVEL ECOSYSTEM DESIGNED TO EMPOWER agencies with centralized access to global inventory, seamless booking workflows, and intelligent management tools."
             },
             {
                 "num": "02",
-                "name": "QA and Testing",
+                "name": "Content API (Aggregator API)",
                 "icon": "img/icons/md/2.svg",
-                "text": "Quality assurance and testing are critical for ensuring your travel technology solutions perform flawlessly. Our expert QA team rigorously tests every aspect of your platform, ensuring reliability, security, and seamless user experience."
+                "text": "A developer-ready API that consolidates NDC content across multiple carriers, enabling seamless integration and access to competitive fares and ancillary services with real-time inventory "
             },
             {
                 "num": "03",
-                "name": "SaaS (Software as a Service)",
+                "name": "Website Development Services",
                 "icon": "img/icons/md/3.svg",
-                "text": "Our SaaS solutions offer flexible, cloud-based platforms that enable you to streamline operations, reduce costs, and scale quickly. Focus on your core business while we handle the technical complexities."
+                "text": "Professionally engineered travel websites (dynamic/static) tailored to agency-specific workflows, branding, and operational needs with Security Enhancements and Technological Excellence."
             }
         ]
     },
@@ -28,21 +28,21 @@
         "items": [
             {
                 "num": "04",
-                "name": "White Label B2B Solution",
+                "name": "White Label Travel Platform",
                 "icon": "img/icons/md/4.svg",
-                "text": "Our White label B2B solution lets you offer a fully branded travel platform to your partners. Deliver a seamless experience while we handle the back-end integrations, allowing you to focus on growing your business."
+                "text": "A fully own branded solution, rapidly deployable digital storefront that enables agencies to launch their own B2B Travel Portal with minimal infrastructure overhead."
             },
             {
                 "num": "05",
-                "name": "NDC-Enabled Platform",
+                "name": "NDC API Integration",
                 "icon": "img/icons/md/5.svg",
-                "text": "Stay ahead of the curve with our NDC-enabled platform, designed to provide access to the latest airline content. Our platform integrates NDC-certified carriers, allowing you to offer a wider range of products and services."
+                "text": "Direct API connectivity for agencies with signed airline agreements, unlocking exclusive NDC content and enabling full control over NDC-enabled Booking the booking lifecycle."
             },
             {
                 "num": "06",
-                "name": "Content API",
+                "name": "Enterprise",
                 "icon": "img/icons/md/6.svg",
-                "text": "Our Content API provides a single point of integration to access a vast array of global travel content, including NDSC-certified carriers. This flexible API offers fast, real-time access to inventory, making it easy to enhance your offerings with minimal effort."
+                "text": "-OTA / B2B / B2B2B /B2C, -Travel Booking Solutions, -NDC API Integration, -Payment Gateway Integration, -Non-Air Content, Hotel Bookings, Hotel Contracting Module, Hotel Extranet, Tours, Transfers, -Travel technology -Software development & Consulting, -Inventory Management, -Block Seat Selling Module, -Group Request"
             }
         ]
     }

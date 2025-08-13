@@ -33,9 +33,8 @@ SwiperCore.use([
   A11y,
 ]);
 
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+// Note: Swiper CSS is loaded in _document.js for better performance
+// Removed direct CSS imports to avoid conflicts with Next.js 15
 
 export const sliderProps = {
   latestProjectSlider: {

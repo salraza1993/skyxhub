@@ -37,7 +37,7 @@ const Solution2ReviSlider = () => {
           <SwiperSlide className="swiper-slide">
             <div className="mil-hover-card">
               <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <img src="img/icons/md/12.svg" alt="icon" />
+                <img src="/img/icons/md/12.svg" alt="icon" />
               </div>
               <h5 className="mil-mb-30">Retail and eCommerce</h5>
               <p>
@@ -49,7 +49,7 @@ const Solution2ReviSlider = () => {
           <SwiperSlide className="swiper-slide">
             <div className="mil-hover-card">
               <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <img src="img/icons/md/13.svg" alt="icon" />
+                <img src="/img/icons/md/13.svg" alt="icon" />
               </div>
               <h5 className="mil-mb-30">Education and eLearning</h5>
               <p>
@@ -61,7 +61,7 @@ const Solution2ReviSlider = () => {
           <SwiperSlide className="swiper-slide">
             <div className="mil-hover-card">
               <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <img src="img/icons/md/14.svg" alt="icon" />
+                <img src="/img/icons/md/14.svg" alt="icon" />
               </div>
               <h5 className="mil-mb-30">Finance and Banking</h5>
               <p>
@@ -73,7 +73,7 @@ const Solution2ReviSlider = () => {
           <SwiperSlide className="swiper-slide">
             <div className="mil-hover-card">
               <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                <img src="img/icons/md/2.svg" alt="icon" />
+                <img src="/img/icons/md/2.svg" alt="icon" />
               </div>
               <h5 className="mil-mb-30">Life Sciences</h5>
               <p>

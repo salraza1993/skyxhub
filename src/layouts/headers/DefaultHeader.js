@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -5,40 +6,25 @@ const DefaultHeader = ({ transparent, headerTop, extraClass }) => {
   const [toggle, setToggle] = useState(false);
   const [topMenus, setTopMenus] = useState([
     {
-      title: "Solutions",
-      link: "/",
-      subMenus: [
-        { title: "IT Services", link: "" },
-        { title: "IT Solutions", link: "" },
-      ],
-    },
-    {
       title: "Who we are",
-      link: "",
-      subMenus: [
-        { title: "About SkyXHub", link: "" },
-        { title: "Our Team", link: "" },
-        { title: "Career", link: "" },
-      ],
+      link: "/about",
+      // subMenus: [
+      //   { title: "About SkyXHub", link: "/about" },
+      //   { title: "Career", link: "/career" },
+      // ],
     },
     {
-      title: "Portfolio",
-      link: "",
-      subMenus: [
-        { title: "NDC-X", link: "" },
-        { title: "NSAS Tourism", link: "" },
-        { title: "Aero Star Aviations", link: "" },
-      ],
+      title: "Solutions",
+      link: "/solutions",
     },
     {
-      title: "Blog",
-      link: "",
-      subMenus: [],
+      title: "Our Projects",
+      link: "/projects",
     },
+
     {
       title: "Contact",
       link: "/contact",
-      subMenus: [],
     },
   ]);
 
@@ -57,7 +43,7 @@ const DefaultHeader = ({ transparent, headerTop, extraClass }) => {
             </ul>
             <div className="mil-ap-call-to-action">
               <div className="mil-icon-frame mil-icon-frame-sm">
-                <img src="img/icons/sm/4.svg" alt="icon" />
+                <img src="/img/icons/sm/4.svg" alt="icon" />
               </div>
               <p>Find out how SKYXHUB Could save you over 2.400 US$ a year.</p>
             </div>
@@ -79,30 +65,36 @@ const DefaultHeader = ({ transparent, headerTop, extraClass }) => {
       >
         {/* mil-top-panel-transparent */}
         <div className="container">
-          <Link href="/" legacyBehavior>
-            <a className="mil-logo" style={{ width: 140 }}></a>
-          </Link>
+          <Link href={"/"} className="mil-logo" style={{ width: 140 }} />
           <div className={`mil-navigation ${toggle ? "mil-active" : ""}`}>
-            <nav clas>
+            <nav>
               <ul>
-                {
-                  topMenus.map((menu, index) => (
-                    <li key={index} className={menu.subMenus.length > 0 ?  "mil-has-children" : ""}>
-                      <Link href={menu.link}>{menu.title}</Link>
-                      {menu.subMenus.length > 0 && (
-                        <ul className="mil-dropdown">
-                          {menu.subMenus.map((submenu, subIndex) => (
-                            <li key={subIndex}>
-                              <Link href={submenu.link}>{submenu.title}</Link>
-                            </li>
-                          ))}
-                        </ul>
-                      )}
-                    </li>
-                  ))
-                }
+                {topMenus.map((menu, index) => (
+                  <li
+                    key={index}
+                    className={
+                      menu?.subMenus?.length > 0 ? "mil-has-children" : ""
+                    }
+                  >
+                    <Link href={menu.link}>{menu.title}</Link>
+                    {menu?.subMenus?.length > 0 && (
+                      <ul className="mil-dropdown">
+                        {menu.subMenus.map((submenu, subIndex) => (
+                          <li key={subIndex}>
+                            <Link href={submenu.link}>{submenu.title}</Link>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </li>
+                ))}
               </ul>
-              <a href="https://wa.me/+971551532975?text=Hello%20I%20would%20like%20more%20information%20" class="mil-button mil-accent-bg mil-button-sm mil-border"><span>Talk To an Expert</span></a>
+              <a
+                href="https://wa.me/+971551532975?text=Hello%20I%20would%20like%20more%20information%20"
+                className="mil-button mil-accent-bg mil-button-sm mil-border"
+              >
+                <span>Talk To an Expert</span>
+              </a>
             </nav>
           </div>
           {/* mobile menu button */}

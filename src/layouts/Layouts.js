@@ -1,18 +1,11 @@
+'use client';
+
 import { useEffect } from "react";
 import { accordion, milButtonClick, milButtonClick2 } from "@/src/common/utilits";
 import Footer from "./footers/Index";
 import Header from "./headers/Index";
 
-const Layouts = ({
-  children,
-  header,
-  footer,
-  noHeader,
-  noFooter,
-  transparent,
-  headerTop,
-  extarClass,
-}) => {
+const Layouts = ({ children, header, footer, noHeader, noFooter, transparent, headerTop, extarClass }) => {
   useEffect(() => {
     milButtonClick();
     milButtonClick2();
@@ -30,7 +23,7 @@ const Layouts = ({
         />
       )}
       {children}
-      {!noFooter && <Footer footer={2 } />}
+      {!noFooter && <Footer footer={2} />}
     </div>
   );
 };

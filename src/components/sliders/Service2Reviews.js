@@ -29,13 +29,13 @@ const Service2Reviews = () => {
                 >
                   <div className="mil-circle-bg" />
                   <div className="mil-image-frame">
-                    <img src="img/faces/t6.png" alt="img" />
+                    <img src="/img/faces/t6.png" alt="img" />
                   </div>
                 </div>
               </div>
               <div className="col-lg-7">
                 <div className="mil-icon-frame mil-light mil-icon-frame-sm mil-mb-60">
-                  <img src="img/icons/sm/11.svg" alt="icon" />
+                  <img src="/img/icons/sm/11.svg" alt="icon" />
                 </div>
                 <p className="mil-text-lg mil-light mil-mb-60">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -45,7 +45,7 @@ const Service2Reviews = () => {
                 </p>
                 <h3 className="mil-light mil-mb-15">Victoria Oldman</h3>
                 <p className="mil-light-soft">Director of Product Management</p>
-                <p className="mil-accent">ITAgency, Inc</p>
+                <p className="mil-accent-2">ITAgency, Inc</p>
               </div>
             </div>
           </SwiperSlide>
@@ -62,13 +62,13 @@ const Service2Reviews = () => {
                 >
                   <div className="mil-circle-bg" />
                   <div className="mil-image-frame">
-                    <img src="img/faces/t1.png" alt="img" />
+                    <img src="/img/faces/t1.png" alt="img" />
                   </div>
                 </div>
               </div>
               <div className="col-lg-7">
                 <div className="mil-icon-frame mil-light mil-icon-frame-sm mil-mb-60">
-                  <img src="img/icons/sm/11.svg" alt="icon" />
+                  <img src="/img/icons/sm/11.svg" alt="icon" />
                 </div>
                 <p className="mil-text-lg mil-light mil-mb-60">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -78,7 +78,7 @@ const Service2Reviews = () => {
                 </p>
                 <h3 className="mil-light mil-mb-15">John Doe</h3>
                 <p className="mil-light-soft">Director of Product Management</p>
-                <p className="mil-accent">ITAgency, Inc</p>
+                <p className="mil-accent-2">ITAgency, Inc</p>
               </div>
             </div>
           </SwiperSlide>
@@ -95,13 +95,13 @@ const Service2Reviews = () => {
                 >
                   <div className="mil-circle-bg" />
                   <div className="mil-image-frame">
-                    <img src="img/faces/t2.png" alt="img" />
+                    <img src="/img/faces/t2.png" alt="img" />
                   </div>
                 </div>
               </div>
               <div className="col-lg-7">
                 <div className="mil-icon-frame mil-light mil-icon-frame-sm mil-mb-60">
-                  <img src="img/icons/sm/11.svg" alt="icon" />
+                  <img src="/img/icons/sm/11.svg" alt="icon" />
                 </div>
                 <p className="mil-text-lg mil-light mil-mb-60">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -111,7 +111,7 @@ const Service2Reviews = () => {
                 </p>
                 <h3 className="mil-light mil-mb-15">Oscar Trueman</h3>
                 <p className="mil-light-soft">Director of Product Management</p>
-                <p className="mil-accent">ITAgency, Inc</p>
+                <p className="mil-accent-2">ITAgency, Inc</p>
               </div>
             </div>
           </SwiperSlide>
