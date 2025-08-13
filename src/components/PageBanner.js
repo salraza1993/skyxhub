@@ -1,10 +1,11 @@
 import Link from "next/link";
 
-const PageBanner = ({ pageTitle, pageName }) => {
+const PageBanner = ({ pageTitle, pageName, bannerPath }) => {
+  const fallbackImagePath = "img/photo/hero-banner-team.jpg";
   return (
     <div className="mil-banner-sm mil-deep-bg">
       <img
-        src="img/deco/map.png"
+        src={bannerPath || fallbackImagePath}
         alt="background"
         className="mil-background-image"
       />

@@ -2,7 +2,6 @@
 const nextConfig = {
   // React configuration
   reactStrictMode: true,
-  
   // Next.js 15 App Router optimizations
   experimental: {
     // Enable optimized loading for specific packages

@@ -1,8 +1,10 @@
+import Link from "next/link";
+
 const Footer2 = () => {
   const currentYear = new Date().getFullYear();
   return (
     <footer className="mil-dark-bg">
-      <img src="img/deco/map.png" alt="background" className="mil-footer-bg" />
+      <img src="/img/deco/map.png" alt="background" className="mil-footer-bg" />
       <div className="container">
         <div className="mil-footer-content">
           <div className="row align-items-center mil-p-120-60">
@@ -27,7 +29,7 @@ const Footer2 = () => {
           <div className="row justify-content-between mil-p-120-60">
             <div className="col-md-3 col-lg-3 col-xl-3 mil-mb-30">
               <img
-                src="img/logo/logo-light.png"
+                src="/img/logo/logo-light.png"
                 alt="logo"
                 className="mil-logo mil-mb-60"
                 style={{ width: 140 }}
@@ -36,12 +38,13 @@ const Footer2 = () => {
                 className="mil-light mil-light-soft"
                 style={{ marginBottom: 45 }}
               >
-                City Pharmacy Building, M02 Floor, Street 22A, Opp Port Saeed 1, Bus Stop, Al Khabaisi, Dubai, United Arab Emirates
+                City Pharmacy Building, M02 Floor, Street 22A, Opp Port Saeed 1,
+                Bus Stop, Al Khabaisi, Dubai, United Arab Emirates
               </p>
               <ul className="mil-simple-list mil-mb-15">
                 <li className="mil-light">
                   <span className="mil-accent">+971</span>&nbsp;
-                  <span className="mil-light-soft">55 153 2975</span>
+                  <span className="mil-light-soft">4338 8171</span>
                 </li>
                 <li>
                   <span className="mil-accent">info</span>
@@ -55,23 +58,45 @@ const Footer2 = () => {
                   <h4 className="mil-list-title mil-light mil-mb-60">Social</h4>
                   <ul className="mil-hover-link-list mil-light">
                     <li>
-                      <a href="#.">Facebook</a>
+                      <a
+                        href="https://www.facebook.com/skyXhub"
+                        target="_blank"
+                      >
+                        Facebook
+                      </a>
                     </li>
                     <li>
-                      <a href="#.">Instagram</a>
+                      <a
+                        href="https://www.instagram.com/skyXhub"
+                        target="_blank"
+                      >
+                        Instagram
+                      </a>
                     </li>
                     <li>
-                      <a href="#.">LinkedIn</a>
+                      <a
+                        href="https://www.linkedin.com/company/skyXhub"
+                        target="_blank"
+                      >
+                        LinkedIn
+                      </a>
                     </li>
                     <li>
-                      <a href="#.">Twitter</a>
+                      <a href="https://www.twitter.com/skyXhub" target="_blank">
+                        Twitter
+                      </a>
                     </li>
                     <li>
-                      <a href="#.">YouTube</a>
+                      <a
+                        href="https://www.youtube.com/@SkyXHub"
+                        target="_blank"
+                      >
+                        YouTube
+                      </a>
                     </li>
                   </ul>
                 </div>
-                <div className="col-md-4 col-lg-4 mil-mb-60">
+                <div className="col-md-4 col-lg-4 mil-mb-60" target="_blank">
                   <h4 className="mil-list-title mil-light mil-mb-60">
                     Support
                   </h4>
@@ -97,19 +122,13 @@ const Footer2 = () => {
                   <h4 className="mil-list-title mil-light mil-mb-60">Links</h4>
                   <ul className="mil-hover-link-list mil-light">
                     <li>
-                      <a href="#.">About Us</a>
+                      <Link href="/about">About Us</Link>
                     </li>
                     <li>
-                      <a href="#.">Terms &amp; condition</a>
+                      <Link href="#.">Terms &amp; condition</Link>
                     </li>
                     <li>
-                      <a href="#.">Privacy Policy</a>
-                    </li>
-                    <li>
-                      <a href="#.">Partners</a>
-                    </li>
-                    <li>
-                      <a href="#.">Press</a>
+                      <Link href="#.">Privacy Policy</Link>
                     </li>
                   </ul>
                 </div>

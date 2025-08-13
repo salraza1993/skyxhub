@@ -13,7 +13,7 @@ const Header2 = () => {
           </ul>
           <div className="mil-ap-call-to-action">
             <div className="mil-icon-frame mil-icon-frame-sm">
-              <img src="img/icons/sm/4.svg" alt="icon" />
+              <img src="/img/icons/sm/4.svg" alt="icon" />
             </div>
             <p>Find out how SKYXHUB Could save you over 2.400 US$ a year.</p>
           </div>

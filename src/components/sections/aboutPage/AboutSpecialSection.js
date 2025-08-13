@@ -1,6 +1,3 @@
-import Link from 'next/link'
-import React from 'react'
-
 function AboutSpecialSection() {
   return (
     <section className="mil-deep-bg mil-p-120-60">
@@ -11,7 +8,7 @@ function AboutSpecialSection() {
             <div className="mil-circle-illustration">
               <div className="mil-circle-bg" />
               <div className="mil-image-frame">
-                <img src="img/faces/t3.png" alt="img" />
+                <img src="/img/faces/t3.png" alt="img" />
               </div>
             </div>
           </div>
@@ -28,32 +25,32 @@ function AboutSpecialSection() {
             <p className="mil-mb-50">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-              ipsum suspendisse ultrices gravida. Risus commodo viverra
-              maecenas accumsan lacus vel facilisis.{" "}
+              ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+              accumsan lacus vel facilisis.{" "}
             </p>
-            <div className="row align-items-end">
+            <div className="row align-items-end mil-display--none">
               <div className="col-xl-7">
                 <ul className="mil-check-icon-list mil-mb-60">
                   <li>
-                    <img src="img/icons/sm/12.svg" alt="icon" />
+                    <img src="/img/icons/sm/12.svg" alt="icon" />
                     <span className="mil-dark">
                       Quis suspendisse ultrices gravida.
                     </span>
                   </li>
                   <li>
-                    <img src="img/icons/sm/12.svg" alt="icon" />
+                    <img src="/img/icons/sm/12.svg" alt="icon" />
                     <span className="mil-dark">
                       Consectetur adipiscing elit.
                     </span>
                   </li>
                   <li>
-                    <img src="img/icons/sm/12.svg" alt="icon" />
+                    <img src="/img/icons/sm/12.svg" alt="icon" />
                     <span className="mil-dark">
                       Quis suspendisse ultrices gravida.
                     </span>
                   </li>
                   <li>
-                    <img src="img/icons/sm/12.svg" alt="icon" />
+                    <img src="/img/icons/sm/12.svg" alt="icon" />
                     <span className="mil-dark">
                       Consectetur adipiscing elit.
                     </span>
@@ -63,7 +60,7 @@ function AboutSpecialSection() {
               {/* <div className="col-xl-5">
                 <Link href="team-single" className="mil-post-sm mil-mb-60">
                   <div className="mil-cover-frame">
-                    <img src="img/faces/1.jpg" alt="cover" />
+                    <img src="/img/faces/1.jpg" alt="cover" />
                   </div>
                   <div className="mil-description">
                     <h4 className="mil-font-3 mil-accent-2">Jane Meldrum</h4>
@@ -76,7 +73,7 @@ function AboutSpecialSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default AboutSpecialSection
+export default AboutSpecialSection;

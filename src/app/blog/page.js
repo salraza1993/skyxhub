@@ -23,7 +23,7 @@ export default function BlogPage() {
               <div key={index} className="col-lg-6 col-xl-4">
                 <div className="mil-blog-card mil-mb-60">
                   <div className="mil-cover mil-mb-30">
-                    <img src={`img/blog/${post.id}.jpg`} alt={post.title} />
+                    <img src={`/img/blog/${post.id}.jpg`} alt={post.title} />
                     <div className="mil-date">
                       <div className="mil-day">{new Date(post.date).getDate()}</div>
                       <div className="mil-month">

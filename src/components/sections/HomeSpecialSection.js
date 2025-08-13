@@ -26,7 +26,7 @@ function HomeSpecialSection() {
               </h5>
             </div>
             <div className="col-xl-7 mil-mb-30">
-              <ul className="mil-list mil-list-pills mil-light-soft mil-mb-30">
+              <ul className="mil-list mil-list-pills mil-mb-30">
                 <li className="mil-list-item">
                   <span className="icon"><i className="fa-solid fa-circle-check"></i></span>
                   <span className="text">Multi IATA</span>

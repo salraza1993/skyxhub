@@ -24,7 +24,7 @@ const CareersBannerSlider = () => {
           <SwiperSlide className="swiper-slide">
             <div className="mil-banner-slide">
               <img
-                src="img/photo/10.jpg"
+                src="/img/photo/10.jpg"
                 alt="banner"
                 className="mil-banner-bg"
                 data-swiper-parallax={-100}
@@ -38,7 +38,7 @@ const CareersBannerSlider = () => {
                 >
                   <div className="mil-icon-box mil-sb-inner mil-relative">
                     <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                      <img src="img/icons/md/1.svg" alt="icon" />
+                      <img src="/img/icons/md/1.svg" alt="icon" />
                     </div>
                     <h4 className="mil-mb-30">Continuous Learning</h4>
                     <div className="mil-divider mil-divider-left mil-mb-30" />
@@ -56,7 +56,7 @@ const CareersBannerSlider = () => {
           <SwiperSlide className="swiper-slide">
             <div className="mil-banner-slide">
               <img
-                src="img/photo/11.jpg"
+                src="/img/photo/11.jpg"
                 alt="banner"
                 className="mil-banner-bg"
                 data-swiper-parallax={-100}
@@ -70,7 +70,7 @@ const CareersBannerSlider = () => {
                 >
                   <div className="mil-icon-box mil-sb-inner mil-relative">
                     <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                      <img src="img/icons/md/2.svg" alt="icon" />
+                      <img src="/img/icons/md/2.svg" alt="icon" />
                     </div>
                     <h4 className="mil-mb-30">Consectetur adipiscing elit</h4>
                     <div className="mil-divider mil-divider-left mil-mb-30" />
@@ -88,7 +88,7 @@ const CareersBannerSlider = () => {
           <SwiperSlide className="swiper-slide">
             <div className="mil-banner-slide">
               <img
-                src="img/photo/12.jpg"
+                src="/img/photo/12.jpg"
                 alt="banner"
                 className="mil-banner-bg"
                 data-swiper-parallax={-100}
@@ -102,7 +102,7 @@ const CareersBannerSlider = () => {
                 >
                   <div className="mil-icon-box mil-sb-inner mil-relative">
                     <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                      <img src="img/icons/md/3.svg" alt="icon" />
+                      <img src="/img/icons/md/3.svg" alt="icon" />
                     </div>
                     <h4 className="mil-mb-30">Dolore magna aliqua</h4>
                     <div className="mil-divider mil-divider-left mil-mb-30" />

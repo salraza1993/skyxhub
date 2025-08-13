@@ -45,7 +45,7 @@ top panel
 
 	@media screen and (max-width: 1200px) {
 		padding: 0px;
-		border-bottom: solid 1px $lt-10;
+		// border-bottom: solid 1px $lt-10;
 	}
 
 	& .container,
@@ -60,7 +60,7 @@ top panel
 		height: 70px;
 		display: flex;
 		align-items: center;
-		background-image: url(../img/logo/logo-light.png);
+		background-image: url(/img/logo/logo-light.png);
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: contain;
@@ -194,7 +194,7 @@ top panel
 			transform: translateY(10px);
 			box-shadow: 0px 0px 40px 0px rgba(18, 24, 32, 0.1);
 			width: 100%;
-			background-color: $dark-20;
+			background-color: $primary-5;
 			transition: $t-md;
 
 			&.mil-active {
@@ -297,7 +297,7 @@ top panel
 		box-shadow: none;
 
 		& .mil-logo {
-			background-image: url(../img/logo/logo-light.png);
+			background-image: url(/img/logo/logo-light.png);
 		}
 
 		& .mil-navigation {
@@ -345,10 +345,10 @@ top panel
 		}
 
 		@media screen and (max-width: 1200px) {
-			background-color: $bodyBg;
+			background-color: transparent;
 
 			& .mil-logo {
-				background-image: url(../img/logo/logo-light.png);
+				background-image: url(/img/logo/logo-light.png);
 			}
 
 			& .mil-navigation {
@@ -423,7 +423,7 @@ menu button
 		display: block;
 		width: 24px;
 		height: 2px;
-		background: $bodyColor;
+		background: $primary-2;
 		backface-visibility: hidden;
 		transition: inherit;
 	}
@@ -720,24 +720,48 @@ banner
 }
 
 .mil-banner-sm {
-	height: 400px;
+	// height: 350px;
 	position: relative;
-	padding-top: 220px;
-	padding-bottom: 120px;
+	padding-block-start: 180px;
+	padding-block-end: 60px;
 	display: flex;
 	align-items: center;
+	isolation: isolate;
+	background-color: $primary-5;
+	color: $primary-1;
+	.mil-breadcrumbs {
+		& li {
+			& a {
+				--breadcrumb-color: #{$primary-1};
+				--breadcrumb-last-color: #{$lt-50};
+			}
+		}
+	}
+
+	&:after {
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: $primary-5;
+		opacity: 0.8;
+		z-index: -1;
+		inset-block-start: 0;
+	}
+	.mil-uppercase {
+		color: inherit;
+	}
 
 	& .mil-background-image {
-		filter: invert(100%);
-		opacity: 0.05;
+		// filter: invert(100%);
+		opacity: 1;
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
 		object-position: center;
 		position: absolute;
 		z-index: -1;
-		top: 0;
-		left: 0;
+		inset-block-start: 0;
 	}
 
 	& .mil-banner-content {
@@ -747,8 +771,8 @@ banner
 
 	@media screen and (max-width: 992px) {
 		height: auto;
-		padding-top: 190px;
-		padding-bottom: 90px;
+		padding-top: 100px;
+		padding-bottom: 30px;
 	}
 }
 
@@ -985,11 +1009,11 @@ illustration
 	& .mil-circle-bg {
 		width: 100%;
 		height: 100%;
-		background-color: $accent;
+		// background-color: $accent-2;
 		position: absolute;
 		top: 0;
 		left: 0;
-		border-radius: 50%;
+		// border-radius: 50%;
 	}
 
 	& .mil-image-frame {
@@ -998,14 +1022,14 @@ illustration
 		position: absolute;
 		top: -60px;
 		left: 0;
-		border-radius: 0 0 47% 47%;
+		// border-radius: 0 0 47% 47%;
 		overflow: hidden;
 
 		& img {
-			filter: grayscale(100%);
+			// filter: grayscale(100%);
 			width: 100%;
 			height: 100%;
-			object-fit: cover;
+			object-fit: contain;
 			object-position: top;
 			height: calc(100% + 60px);
 		}
@@ -1363,7 +1387,7 @@ card
 						margin-right: 5px;
 
 						& i {
-							color: $accent;
+							color: $accent-2;
 						}
 
 						&.mil-empty {
@@ -1794,8 +1818,9 @@ icon box
 
 	& span {
 		display: block;
-		font-size: 30px;
+		font-size: 2.25rem;
 		color: $dark;
+		font-weight: 600;
 		z-index: 2;
 
 		&:before {
@@ -1900,7 +1925,7 @@ reviews
 				margin-right: 5px;
 
 				& i {
-					color: $accent;
+					color: $accent-2;
 				}
 			}
 		}
@@ -2084,7 +2109,7 @@ about
 					margin-right: 5px;
 
 					& i {
-						color: $accent;
+						color: $accent-2;
 					}
 
 					&.mil-empty {
@@ -2234,7 +2259,7 @@ breadcrumbs
 		align-items: center;
 
 		& a {
-			color: $dark;
+			color: var(--breadcrumb-color, $dark);
 			transition: $t-sm;
 
 			&:hover {
@@ -2252,15 +2277,13 @@ breadcrumbs
 		}
 
 		&:last-child {
+			cursor: not-allowed;
 			&:after {
 				display: none;
 			}
-
-			cursor: not-allowed;
-
 			& a {
 				pointer-events: none;
-				color: $dt-50;
+				color: var(--breadcrumb-last-color, $dt-50);
 			}
 		}
 	}
@@ -3359,7 +3382,7 @@ project
 	border-radius: 10px;
 
 	& img {
-		filter: grayscale(100%);
+		// filter: grayscale(100%);
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -3371,6 +3394,7 @@ project
 	}
 
 	&:after {
+		display: none;
 		content: "";
 		width: 15%;
 		padding-bottom: 15%;
@@ -3679,4 +3703,27 @@ additional pages
 		display: flex;
 		justify-content: space-between;
 	}
+}
+
+
+.services-card {
+	position: relative;
+	border: 1px solid $primary-2;
+	background-color: rgba($primary-2, 0.25);
+	border-radius: 0.75rem;
+	padding: 1.5rem;
+	height: 100%;
+	transition: $t-lg;
+
+	&:hover {
+		background-color: rgba($primary-2, 1);
+		border-color: $accent-1;
+	}
+}
+
+.cta-button-wrapper {
+	position: relative;
+	display: grid;
+	place-items: center;
+	height: 100%;
 }

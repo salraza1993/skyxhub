@@ -50,7 +50,7 @@ const AwardsSection = () => {
                 <div className={item.boxClass}>
                   <div className="mil-icon-box mil-center">
                     <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                      <img src="img/icons/md/6l.svg" alt="icon" />
+                      <img src="/img/icons/md/6l.svg" alt="icon" />
                     </div>
                     <h5 className="mil-light mil-mb-20">{item.name}</h5>
                     <p className="mil-text-sm mil-light-soft">

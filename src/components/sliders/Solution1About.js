@@ -28,7 +28,7 @@ const Solution1About = () => {
                 <div className="mil-hori-box mil-mb-60">
                   <div className="mil-mr-15">
                     <div className="mil-icon-frame mil-icon-frame-md">
-                      <img src="img/icons/md/2.svg" alt="icon" />
+                      <img src="/img/icons/md/2.svg" alt="icon" />
                     </div>
                   </div>
                   <h5>Machine Learning</h5>
@@ -66,7 +66,7 @@ const Solution1About = () => {
                 >
                   <div className="mil-circle-bg" />
                   <div className="mil-image-frame">
-                    <img src="img/faces/t3.png" alt="img" />
+                    <img src="/img/faces/t3.png" alt="img" />
                   </div>
                 </div>
               </div>
@@ -82,7 +82,7 @@ const Solution1About = () => {
                 <div className="mil-hori-box mil-mb-60">
                   <div className="mil-mr-15">
                     <div className="mil-icon-frame mil-icon-frame-md">
-                      <img src="img/icons/md/1.svg" alt="icon" />
+                      <img src="/img/icons/md/1.svg" alt="icon" />
                     </div>
                   </div>
                   <h5>Deep Learning</h5>
@@ -120,7 +120,7 @@ const Solution1About = () => {
                 >
                   <div className="mil-circle-bg" />
                   <div className="mil-image-frame">
-                    <img src="img/faces/t4.png" alt="img" />
+                    <img src="/img/faces/t4.png" alt="img" />
                   </div>
                 </div>
               </div>
@@ -136,7 +136,7 @@ const Solution1About = () => {
                 <div className="mil-hori-box mil-mb-60">
                   <div className="mil-mr-15">
                     <div className="mil-icon-frame mil-icon-frame-md">
-                      <img src="img/icons/md/11.svg" alt="icon" />
+                      <img src="/img/icons/md/11.svg" alt="icon" />
                     </div>
                   </div>
                   <h5>Natural Language</h5>
@@ -174,7 +174,7 @@ const Solution1About = () => {
                 >
                   <div className="mil-circle-bg" />
                   <div className="mil-image-frame">
-                    <img src="img/faces/t2.png" alt="img" />
+                    <img src="/img/faces/t2.png" alt="img" />
                   </div>
                 </div>
               </div>
@@ -190,7 +190,7 @@ const Solution1About = () => {
                 <div className="mil-hori-box mil-mb-60">
                   <div className="mil-mr-15">
                     <div className="mil-icon-frame mil-icon-frame-md">
-                      <img src="img/icons/md/3.svg" alt="icon" />
+                      <img src="/img/icons/md/3.svg" alt="icon" />
                     </div>
                   </div>
                   <h5>Computer Vision</h5>
@@ -228,7 +228,7 @@ const Solution1About = () => {
                 >
                   <div className="mil-circle-bg" />
                   <div className="mil-image-frame">
-                    <img src="img/faces/t5.png" alt="img" />
+                    <img src="/img/faces/t5.png" alt="img" />
                   </div>
                 </div>
               </div>

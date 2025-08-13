@@ -13,7 +13,7 @@ function WhyWorkWithUs() {
             <div className="row align-items-center">
               <div className="col-xl-2">
                 <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                  <img src="img/icons/md/6.svg" alt="icon" />
+                  <img src="/img/icons/md/6.svg" alt="icon" />
                 </div>
               </div>
               <div className="col-xl-3">
@@ -50,7 +50,7 @@ function WhyWorkWithUs() {
             <div className="row align-items-center">
               <div className="col-xl-2">
                 <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                  <img src="img/icons/md/10.svg" alt="icon" />
+                  <img src="/img/icons/md/10.svg" alt="icon" />
                 </div>
               </div>
               <div className="col-xl-3">
@@ -95,7 +95,7 @@ function WhyWorkWithUs() {
             <div className="row align-items-center">
               <div className="col-xl-2">
                 <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                  <img src="img/icons/md/2.svg" alt="icon" />
+                  <img src="/img/icons/md/2.svg" alt="icon" />
                 </div>
               </div>
               <div className="col-xl-3">
@@ -132,7 +132,7 @@ function WhyWorkWithUs() {
             <div className="row align-items-center">
               <div className="col-xl-2">
                 <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                  <img src="img/icons/md/4.svg" alt="icon" />
+                  <img src="/img/icons/md/4.svg" alt="icon" />
                 </div>
               </div>
               <div className="col-xl-3">
@@ -165,7 +165,7 @@ function WhyWorkWithUs() {
             <div className="row align-items-center">
               <div className="col-xl-2">
                 <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-                  <img src="img/icons/md/5.svg" alt="icon" />
+                  <img src="/img/icons/md/5.svg" alt="icon" />
                 </div>
               </div>
               <div className="col-xl-3">

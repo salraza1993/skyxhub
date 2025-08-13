@@ -2,13 +2,13 @@ const DefaultFooter = () => {
   const currentYear = new Date().getFullYear();
   return (
     <footer className="mil-dark-bg">
-      <img src="img/deco/map.png" alt="background" className="mil-footer-bg" />
+      <img src="/img/deco/map.png" alt="background" className="mil-footer-bg" />
       <div className="container">
         <div className="mil-footer-content mil-p-120-90">
           <div className="row justify-content-between align-items-center">
             <div className="col-xl-4 mil-mb-30">
               <img
-                src="img/logo/logo-light.png"
+                src="/img/logo/logo-light.png"
                 alt="logo"
                 className="mil-logo mil-mb-30"
                 style={{ width: 140 }}
@@ -104,7 +104,9 @@ const DefaultFooter = () => {
       </div>
       <div className="mil-footer-bottom">
         <div className="container">
-          <p className="mil-text-sm mil-light">© SKYXHUB Technology {currentYear}.</p>
+          <p className="mil-text-sm mil-light">
+            © SKYXHUB Technology {currentYear}.
+          </p>
           <p className="mil-text-sm mil-light">All Rights Reserved.</p>
         </div>
       </div>

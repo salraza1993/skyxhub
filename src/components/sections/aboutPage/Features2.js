@@ -5,17 +5,17 @@ function Features2() {
     <section className="mil-deep-bg mil-p-120-60">
       <div className="mil-deco" style={{ top: 0, right: "25%" }} />
       <div className="container">
-        <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
+        <span className="mil-suptitle mil-dark-soft mil-suptitle-2 mil-mb-30">
           For Enterprise
         </span>
-        <h2 className="mil-mb-120">
-          We Live by <span className="mil-accent">Powerful</span> Values
+        <h2 className="mil-mb-90">
+          We Live by <span className="mil-accent-2">Powerful</span> Values
         </h2>
         <div className="row">
           <div className="col-md-6 col-xl-4">
             <div className="mil-icon-box-2 mil-mb-60">
               <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
-                <img src="img/icons/md/10.svg" alt="icon" />
+                <img src="/img/icons/md/10.svg" alt="icon" />
               </div>
               <div className="mil-box-text">
                 <h4 className="mil-mb-30">We Are</h4>
@@ -28,7 +28,7 @@ function Features2() {
           <div className="col-md-6 col-xl-4">
             <div className="mil-icon-box-2 mil-mb-60">
               <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
-                <img src="img/icons/md/10.svg" alt="icon" />
+                <img src="/img/icons/md/10.svg" alt="icon" />
               </div>
               <div className="mil-box-text">
                 <h4 className="mil-mb-30">We Deep Dive</h4>
@@ -41,7 +41,7 @@ function Features2() {
           <div className="col-md-6 col-xl-4">
             <div className="mil-icon-box-2 mil-mb-60">
               <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
-                <img src="img/icons/md/10.svg" alt="icon" />
+                <img src="/img/icons/md/10.svg" alt="icon" />
               </div>
               <div className="mil-box-text">
                 <h4 className="mil-mb-30">We Take</h4>
@@ -54,7 +54,7 @@ function Features2() {
           <div className="col-md-6 col-xl-4">
             <div className="mil-icon-box-2 mil-mb-60">
               <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
-                <img src="img/icons/md/10.svg" alt="icon" />
+                <img src="/img/icons/md/10.svg" alt="icon" />
               </div>
               <div className="mil-box-text">
                 <h4 className="mil-mb-30">We Value</h4>
@@ -67,7 +67,7 @@ function Features2() {
           <div className="col-md-6 col-xl-4">
             <div className="mil-icon-box-2 mil-mb-60">
               <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
-                <img src="img/icons/md/10.svg" alt="icon" />
+                <img src="/img/icons/md/10.svg" alt="icon" />
               </div>
               <div className="mil-box-text">
                 <h4 className="mil-mb-30">We Believe</h4>
@@ -80,7 +80,7 @@ function Features2() {
           <div className="col-md-6 col-xl-4">
             <div className="mil-icon-box-2 mil-mb-60">
               <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
-                <img src="img/icons/md/10.svg" alt="icon" />
+                <img src="/img/icons/md/10.svg" alt="icon" />
               </div>
               <div className="mil-box-text">
                 <h4 className="mil-mb-30">We Say “We”</h4>

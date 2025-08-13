@@ -24,7 +24,7 @@ function OurVision() {
               <div className="mil-circle-illustration">
                 <div className="mil-circle-bg" />
                 <div className="mil-image-frame">
-                  <img src="img/faces/t2.png" alt="img" />
+                  <img src="/img/photo/vision-bg.png" alt="img" />
                 </div>
               </div>
             </div>
