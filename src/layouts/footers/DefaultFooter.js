@@ -1,3 +1,5 @@
+import SubscribeForm from "@/src/components/SubscribeForm";
+
 const DefaultFooter = () => {
   const currentYear = new Date().getFullYear();
   return (
@@ -50,16 +52,7 @@ const DefaultFooter = () => {
                   </p>
                 </div>
                 <div className="col-lg-5 mil-mb-30">
-                  <form>
-                    <input
-                      className="mil-rounded-input mil-text-center mil-mb-5"
-                      type="text"
-                      placeholder="Your email address"
-                    />
-                    <button className="mil-button mil-border mil-fw">
-                      <span>Subscribe Now</span>
-                    </button>
-                  </form>
+                  <SubscribeForm />
                 </div>
               </div>
             </div>

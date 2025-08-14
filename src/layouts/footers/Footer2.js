@@ -1,3 +1,4 @@
+import SubscribeForm from "@/src/components/SubscribeForm";
 import Link from "next/link";
 
 const Footer2 = () => {
@@ -17,12 +18,7 @@ const Footer2 = () => {
               </p>
             </div>
             <div className="col-xl-6 mil-mb-60">
-              <form className="mil-subscribe-form">
-                <input type="text" placeholder="Your email address" />
-                <button type="submit" className="mil-button mil-accent-bg">
-                  Subscribe Now
-                </button>
-              </form>
+              <SubscribeForm />
             </div>
           </div>
           <div className="mil-divider mil-light" />
@@ -43,11 +39,11 @@ const Footer2 = () => {
               </p>
               <ul className="mil-simple-list mil-mb-15">
                 <li className="mil-light">
-                  <span className="mil-accent">+971</span>&nbsp;
+                  <span className="mil-accent-2">+971</span>&nbsp;
                   <span className="mil-light-soft">4338 8171</span>
                 </li>
                 <li>
-                  <span className="mil-accent">info</span>
+                  <span className="mil-accent-2">info</span>
                   <span className="mil-light mil-light-soft">@skyxhub.com</span>
                 </li>
               </ul>

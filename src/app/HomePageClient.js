@@ -1,6 +1,5 @@
 "use client";
 
-import dynamic from "next/dynamic";
 import Layouts from "../layouts/Layouts";
 
 import ContactSection from "../components/sections/Contact";
@@ -10,9 +9,8 @@ import HowItWorksSection from "../components/sections/HowItWorks";
 import PartnersSection from "../components/sections/Partners";
 import ServicesSection from "../components/sections/Services";
 import SkillsSection from "../components/sections/Skills";
-
-const LatestProjectsSlider = dynamic(() => import("../components/sliders/LatestProjects.js"), { ssr: false });
-const HeroSlideshowSlider = dynamic(() => import("../components/sliders/HeroSlideshow.js"), { ssr: false });
+import LatestProjectsSlider from "../components/sliders/LatestProjects.js";
+import HeroSlideshowSlider from "../components/sliders/HeroSlideshow.js";
 
 // Client Component - handles interactive elements
 export default function HomePageClient({ posts, projects }) {

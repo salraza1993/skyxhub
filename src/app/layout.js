@@ -2,6 +2,7 @@ import { Kanit } from 'next/font/google';
 import '../styles/globals.css';
 import './styles.scss';
 import SwiperProvider from './SwiperProvider';
+import Script from 'next/script';
 
 // Font configuration
 const kanit = Kanit({
@@ -65,15 +66,24 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={kanit.variable}>
       <head>
-        {/* Additional meta tags */}
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
-        
         {/* Public assets */}
         <link rel="stylesheet" href="/css/plugins/bootstrap-grid.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
         <link rel="stylesheet" href="/css/plugins/swiper.min.css" />
       </head>
+      {/* <!-- Start Google Tag Manager --> */}
+      <Script id="google-tag-manager" strategy="afterInteractive">
+        {`
+          (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-NRJVGVFM');
+        `}
+      </Script>
+      {/* <!-- End Google Tag Manager --> */}
       <body>
         <SwiperProvider>
           {children}

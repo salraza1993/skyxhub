@@ -30,7 +30,7 @@ const SkillsSection = () => {
                     style={{ width: item.value + "%" }}
                   />
                 </div>
-                <div className="mil-text-sm mil-dark">{item.value}%</div>
+                {/* <div className="mil-text-sm mil-dark">{item.value}%</div> */}
               </div>
             </div>
           ))}

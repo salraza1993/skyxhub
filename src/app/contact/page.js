@@ -89,10 +89,10 @@ const Contact = () => {
                 </p>
                 <div className="mil-divider mil-divider-left mil-mb-30" />
                 <h6 className="mil-mb-15">
-                  <span className="mil-accent">+971</span> 433 881 71
+                  <span className="mil-accent-2">+971</span> 433 881 71
                 </h6>
                 <h6>
-                  <span className="mil-accent">support</span>@skyxhub.com
+                  <span className="mil-accent-2">support</span>@skyxhub.com
                 </h6>
               </div>
             </div>
