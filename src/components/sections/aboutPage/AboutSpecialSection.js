@@ -32,25 +32,25 @@ function AboutSpecialSection() {
               <div className="col-xl-12">
                 <ul className="mil-list mil-list-pills mil-list-pills--light mil-light-soft">
                   <li className="mil-list-item">
-                    <span className="icon"><i class="fa-solid fa-circle-check"></i></span>
+                    <span className="icon"><i className="fa-solid fa-circle-check"></i></span>
                     <span>
                       Smart booking solutions for effortless reservations
                     </span>
                   </li>
                   <li className="mil-list-item">
-                    <span className="icon"><i class="fa-solid fa-circle-check"></i></span>
+                    <span className="icon"><i className="fa-solid fa-circle-check"></i></span>
                     <span>
                       Seamless integrations with global travel platforms
                     </span>
                   </li>
                   <li className="mil-list-item">
-                    <span className="icon"><i class="fa-solid fa-circle-check"></i></span>
+                    <span className="icon"><i className="fa-solid fa-circle-check"></i></span>
                     <span>
                       Mobile-first experiences for travelers on the go
                     </span>
                   </li>
                   <li className="mil-list-item">
-                    <span className="icon"><i class="fa-solid fa-circle-check"></i></span>
+                    <span className="icon"><i className="fa-solid fa-circle-check"></i></span>
                     <span>
                       Data-driven insights to optimize your offerings
                     </span>
