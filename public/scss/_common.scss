@@ -472,6 +472,7 @@ list
   list-style-type: disc;
   list-style-position: inside;
   padding-inline-start: 0.75rem;
+  padding: 0;
 
   &.mil-list-pills {
     display: flex;
@@ -480,6 +481,20 @@ list
     gap: 0.75rem;
 
     &.mil-light-soft {
+      .mil-list-item {
+        background-color: $primary-2;
+        color: $primary-5;
+        border: 1px solid $lt-15;
+      }
+    }
+    &.mil-list-pills--light {
+      .mil-list-item {
+        background-color: $primary-1;
+        color: $primary-5;
+        border: 1px solid $lt-15;
+      }
+    }
+    &.mil-list-pills--gray {
       .mil-list-item {
         background-color: $primary-2;
         color: $primary-5;
@@ -501,6 +516,8 @@ list
       font-size: $h5;
       line-height: $h5 + 2px;
 
+      &.max-width--content { max-width: max-content;}
+
       &:has(.icon) {
         padding-inline-start: 6px;
       }
@@ -515,8 +532,21 @@ list
       }
     }
   }
+  &.mil-list--small {
+    gap: 0.5rem;
+    .mil-list-item {
+      padding: 6px 10px;
+      font-size: 1rem;
+    }
+  }
 }
 
+.mil-bordered {
+  border: solid 1px $dt-10;
+  border-radius: $borderRadius * 2;
+  overflow: clip;
+  img { display: block;}
+}
 .mil-rec-res {
   border-top: solid 1px $lt-10;
 

@@ -28,9 +28,7 @@ const ServicesSection = () => {
                       <h3 className="mil-mb-30">
                         <span className="mil-accent-2">{item.num}</span> {item.name}
                       </h3>
-                      <h5 className="mil-font-300">
-                        {item.text}
-                      </h5>
+                      <div className="mil-h5 mil-font-400" dangerouslySetInnerHTML={{ __html: item.text }}></div>
                     </div>
                   </div>
                 </div>
@@ -38,7 +36,6 @@ const ServicesSection = () => {
             }
           </div>
           <div className="col-lg-6 col-xl-6 mil-services-column">
-
             <h4 className="mil-mb-60 mil-mt-30">{Content.column2.heading}</h4>
             <div className="mil-divider mil-divider-left" />
             {Content.column2.items.map((item, key) => (
@@ -54,9 +51,7 @@ const ServicesSection = () => {
                       <h3 className="mil-mb-30">
                         <span className="mil-accent-2">{item.num}</span> {item.name}
                       </h3>
-                      <h5 className="mil-font-300">
-                        {item.text}
-                      </h5>
+                      <div className="mil-h5 mil-font-400" dangerouslySetInnerHTML={{ __html: item.text }}></div>
                     </div>
                   </div>
                 </div>

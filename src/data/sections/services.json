@@ -42,7 +42,7 @@
                 "num": "06",
                 "name": "Enterprise",
                 "icon": "img/icons/md/6.svg",
-                "text": "-OTA / B2B / B2B2B /B2C, -Travel Booking Solutions, -NDC API Integration, -Payment Gateway Integration, -Non-Air Content, Hotel Bookings, Hotel Contracting Module, Hotel Extranet, Tours, Transfers, -Travel technology -Software development & Consulting, -Inventory Management, -Block Seat Selling Module, -Group Request"
+                "text": "<ul class=\"mil-list mil-list-pills mil-list--small mil-light-soft\"><li class=\"mil-list-item\">OTA / B2B / B2B2B /B2C</li><li class=\"mil-list-item\">Travel Booking Solutions</li><li class=\"mil-list-item\">NDC API Integration</li><li class=\"mil-list-item\">Payment Gateway Integration</li><li class=\"mil-list-item\">Non-Air Content</li><li class=\"mil-list-item\">Hotel Bookings</li><li class=\"mil-list-item\">Hotel Extranet</li><li class=\"mil-list-item\">Hotel Contracting Module</li><li class=\"mil-list-item\">Tours</li><li class=\"mil-list-item\">Transfers</li><li class=\"mil-list-item\">Travel technology</li><li class=\"mil-list-item\">Inventory Management</li><li class=\"mil-list-item\">Block Seat Selling Module</li><li class=\"mil-list-item\">Group Request</li><li class=\"mil-list-item\">Software development & Consulting</li></ul>"
             }
         ]
     }

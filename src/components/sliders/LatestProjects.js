@@ -4,8 +4,29 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { sliderProps } from "../../common/sliderProps";
 
 import SectionData from "../../data/sliders/latest-projects.json";
+import { useState } from "react";
 
 const LatestProjects = ({ projects }) => {
+  const [projectsCard, setProjectsCard] = useState([
+    {
+      title: 'NDC-X',
+      path: 'projects/ndc-x',
+      image: 'img/projects/1.jpg',
+      short: 'A powerful B2B portal designed for streamlined and efficient flight booking, offering reliability and advanced solutions for businesses.'
+    },
+    {
+      title: 'NSAS Tourism',
+      path: 'projects/nsas-tourism',
+      image: 'img/projects/2.jpg',
+      short: 'A comprehensive tourism website offering tailored travel solutions, inspiring destinations, and seamless booking experiences for all your adventures.'
+    },
+    {
+      title: 'Aero Star Aviation',
+      path: 'projects/aero-star-aviation',
+      image: 'img/projects/3.jpg',
+      short: 'A trusted platform delivering top-notch aviation services, tailored solutions, and seamless experiences for all your aviation needs.'
+    },
+  ]);
   return (
     <section className="mil-works mil-p-120-90">
       <div className="mil-deco" style={{ top: 0, right: "40%" }} />
@@ -34,9 +55,9 @@ const LatestProjects = ({ projects }) => {
           {...sliderProps.latestProjectSlider}
           className="swiper-container mil-works-slider mil-mb-90"
         >
-          {projects.slice(0, SectionData.numOfItems).map((item, key) => (
+          {projectsCard.map((item, key) => (
             <SwiperSlide className="swiper-slide" key={key}>
-              <Link href="" className="mil-card">
+              <Link href={item.path} className="mil-card">
                 <div className="mil-cover-frame">
                   <img src={item.image} alt={item.title} />
                 </div>

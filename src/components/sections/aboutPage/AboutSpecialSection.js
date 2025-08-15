@@ -22,37 +22,37 @@ function AboutSpecialSection() {
               Business in The Current
               <br /> Digital Era.
             </h2>
-            <p className="mil-mb-50">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-              ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-              accumsan lacus vel facilisis.{" "}
+            <p className="mil-mb-20">
+              In today's fast-paced travel industry, innovation is the key to staying ahead. We help travel agencies, airlines, tour operators, and hospitality brands featuring  cutting-edge technology to streamline operations, enhance customer experiences, and maximize revenue potential.
+            </p>
+            <p className="mil-mb-20">
+              From AI-powered booking platforms to seamless payment integrations, we bring your vision to life.
             </p>
             <div className="row align-items-end mil-display--none">
-              <div className="col-xl-7">
-                <ul className="mil-check-icon-list mil-mb-60">
-                  <li>
-                    <img src="/img/icons/sm/12.svg" alt="icon" />
-                    <span className="mil-dark">
-                      Quis suspendisse ultrices gravida.
+              <div className="col-xl-12">
+                <ul className="mil-list mil-list-pills mil-list-pills--light mil-light-soft">
+                  <li className="mil-list-item">
+                    <span className="icon"><i class="fa-solid fa-circle-check"></i></span>
+                    <span>
+                      Smart booking solutions for effortless reservations
                     </span>
                   </li>
-                  <li>
-                    <img src="/img/icons/sm/12.svg" alt="icon" />
-                    <span className="mil-dark">
-                      Consectetur adipiscing elit.
+                  <li className="mil-list-item">
+                    <span className="icon"><i class="fa-solid fa-circle-check"></i></span>
+                    <span>
+                      Seamless integrations with global travel platforms
                     </span>
                   </li>
-                  <li>
-                    <img src="/img/icons/sm/12.svg" alt="icon" />
-                    <span className="mil-dark">
-                      Quis suspendisse ultrices gravida.
+                  <li className="mil-list-item">
+                    <span className="icon"><i class="fa-solid fa-circle-check"></i></span>
+                    <span>
+                      Mobile-first experiences for travelers on the go
                     </span>
                   </li>
-                  <li>
-                    <img src="/img/icons/sm/12.svg" alt="icon" />
-                    <span className="mil-dark">
-                      Consectetur adipiscing elit.
+                  <li className="mil-list-item">
+                    <span className="icon"><i class="fa-solid fa-circle-check"></i></span>
+                    <span>
+                      Data-driven insights to optimize your offerings
                     </span>
                   </li>
                 </ul>

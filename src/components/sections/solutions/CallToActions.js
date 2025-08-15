@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function CallToActions() {
   return (
     <section className="mil-p-120-90">
@@ -14,18 +16,16 @@ function CallToActions() {
                   <img src="/img/icons/md/1.svg" alt="icon" />
                 </div>
               </div>
-              <h5>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqu quis
-                ipsum suspendisse ultrices gravida.
-              </h5>
+              <h4>
+                Boost revenue and delight customers with our cutting-edge travel technology solutions. Designed travel industry ,  while specializing in B2B, A2A our tools transform how you operate and grow your business.
+              </h4>
             </div>
           </div>
           <div className="col-lg-4">
             <div className="mil-adaptive-right">
-              <a href="/contact" className="mil-button mil-border mil-mb-30">
+              <Link href={"/contact"} className="mil-button mil-border mil-mb-30">
                 <span>Get in Touch</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

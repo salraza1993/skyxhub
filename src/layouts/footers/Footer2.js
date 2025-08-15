@@ -98,19 +98,16 @@ const Footer2 = () => {
                   </h4>
                   <ul className="mil-hover-link-list mil-light">
                     <li>
-                      <a href="#.">Documentation</a>
+                      <Link href={"/contact"}>Support</Link>
                     </li>
                     <li>
-                      <a href="#.">Support</a>
+                      <Link href="/about">About Us</Link>
                     </li>
                     <li>
-                      <a href="#.">FAQs</a>
+                      <Link href="/solutions">Solutions</Link>
                     </li>
                     <li>
-                      <a href="#.">Download</a>
-                    </li>
-                    <li>
-                      <a href="#.">Sitemap</a>
+                      <Link href="/projects">Case Studies</Link>
                     </li>
                   </ul>
                 </div>
@@ -118,13 +115,13 @@ const Footer2 = () => {
                   <h4 className="mil-list-title mil-light mil-mb-60">Links</h4>
                   <ul className="mil-hover-link-list mil-light">
                     <li>
-                      <Link href="/about">About Us</Link>
+                      <Link href={"/faqs"}>FAQs</Link>
                     </li>
                     <li>
-                      <Link href="#.">Terms &amp; condition</Link>
+                      <Link href={"/terms-and-conditions"}>Terms &amp; condition</Link>
                     </li>
                     <li>
-                      <Link href="#.">Privacy Policy</Link>
+                      <Link href={"/privacy-policy"}>Privacy Policy</Link>
                     </li>
                   </ul>
                 </div>

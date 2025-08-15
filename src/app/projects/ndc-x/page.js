@@ -2,12 +2,12 @@ import PageBanner from "@/src/components/PageBanner";
 import Layouts from "@/src/layouts/Layouts";
 
 function ProjectDetails() {
-  const bannerTitle = 'NDC-X (Project)'
+  const bannerTitle = 'NDC-X - B2B2B Portal (NSAS Tourism)'
   const projectInfo = [
-    {key: 'Client', value: 'eCoshop Club'},
-    {key: 'Service', value: 'App Development'},
-    {key: 'Industry', value: 'Retail, eCommerce'},
-    {key: 'Stack', value: 'Android, Realm, Dagger 2, RxJava'},
+    {key: 'Client', value: 'NSAS Tourism'},
+    {key: 'Service', value: 'Website development and B2B2B platform'},
+    {key: 'Industry', value: 'Travel Industry'},
+    {key: 'Stack', value: 'Front-end, Back-end, Database, Infrastructure'},
   ];
   const keyPoints = [
     "Multi IATA, Multi GDS.",
@@ -52,13 +52,13 @@ function ProjectDetails() {
                 Our proprietary <strong>NDC-X</strong>  platform is a robust B2B2B booking and distribution system that provides:
               </p>
               <div className="row mil-mb-30">
-                <div className="col-xl-6">
-                  <ul className="mil-check-icon-list mil-mb-15">
+                <div className="col-xl-12">
+                  <ul className="mil-list mil-list-pills mil-light-soft flex-column">
                     {
                       keyPoints.map((point, index) => (
-                        <li key={index}>
-                          <img src="/img/icons/sm/12.svg" alt="icon" />
-                          <span className="mil-dark">{point}</span>
+                        <li key={index} className="mil-list-item max-width--content">
+                          <span className="icon"><i className="fa-solid fa-circle-check"></i></span>
+                          <span className="text">{point}</span>
                         </li>
                       ))
                     }
@@ -68,11 +68,11 @@ function ProjectDetails() {
               <p className="mil-mb-20 mil-dark-soft">
                 This technology empowers our partners with efficient distribution and enhanced sales capabilities withn global expansion over 40,000 registered users under one of our most succssful product NDC-X. Experience the future of travel booking with NDC-X, our flagship B2B2B platform.Built exclusively for travel agents worldwide, NDC-X is an intuitive, all-in-one online solution that streamlines andoptimizes every aspect of the booking process. Whether you're managing flights, hotels, or group bookings, NDC-Xsimplifies your workflow, saving you time and maximizing efficiency.
               </p>
-              <div className="project-image">
+              <div className="project-image mil-mb-20 mil-bordered">
                 <img src="/img/photo/partners.png" alt="NDC-X Project" />
               </div>
               <p className="mil-mb-20 mil-dark-soft">
-                OFFERING 24/7 Operational ExcellenceMultilingual Live Chat SupportDedicated Group Booking SupportExperienced Sales TeamSpecialized Customer ServiceEfficient Refund, Reissue & Void ProcessingAccount & Bank Transfer Support Technology & Commercial Advantage High-Speed, Reliable System Competitive Profit Margins Marketing Support Incentives & Giveaways.
+                OFFERING 24/7 Operational Excellence, Multilingual Live Chat Support, Dedicated Group Booking Support, Experienced Sales Team, Specialized Customer Service, Efficient Refund, Reissue & Void Processing, Account & Bank Transfer Support, Technology & Commercial Advantage, High-Speed, Reliable System, Competitive Profit Margins, Marketing Support, Incentives & Giveaways.
               </p>
               <p className="mil-mb-20 mil-dark-soft">
                 STORY Over the past two years, NDC-X has demonstrated exceptional growth and adoption, with significant increases in user engagement, transactions processed, and client satisfaction. This remarkable growth trajectory is a direct result of our unwavering commitment to innovation, customer-centric solutions, and strategic partnerships. As we continue to innovate and grow, our strategic focus is on, enhancing user experiences, and setting new standards in travel technology. 

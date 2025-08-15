@@ -2,21 +2,19 @@ import PageBanner from "@/src/components/PageBanner";
 import Layouts from "@/src/layouts/Layouts";
 
 function ProjectDetails() {
-  const bannerTitle = 'NSAS TOURISM'
+  const bannerTitle = 'NSAS Tourism – Website Development Project'
   const projectInfo = [
-    {key: 'Client', value: 'eCoshop Club'},
-    {key: 'Service', value: 'App Development'},
-    {key: 'Industry', value: 'Retail, eCommerce'},
-    {key: 'Stack', value: 'Android, Realm, Dagger 2, RxJava'},
+    {key: 'Client', value: 'NSAS Tourism'},
+    {key: 'Service', value: 'Website Development, Tour Packages'},
+    {key: 'Industry', value: 'Travel Industry'},
+    {key: 'Stack', value: 'Front-end, Back-end, Database, Infrastructure'},
   ];
   const keyPoints = [
-    "Multi IATA, Multi GDS.",
-    "Direct and Indirect NDC content of airlines.",
-    "Direct Airlines' XML/JSON content.",
-    "Real-time airline ticketing and inventory management.",
-    "Multi-channel content access for sub-agents.",
-    "Comprehensive reporting and sales optimization tools.",
-    "Automation"
+    "Modern, user-friendly design to enhance the visitor experience.",
+    "Mobile optimization for seamless browsing on any device.",
+    "Fast loading speeds and clean navigation to keep users engaged.",
+    "Scalable and stable  structure so the website can grow with their business needs.",
+    "This project not only strengthened NSAS Tourism’s online presence but also provided them with the flexibility to manage and update their digital content efficiently."
   ];
   return (
     <Layouts>
@@ -48,17 +46,18 @@ function ProjectDetails() {
             <div className="col-lg-7 col-xl-8">
               <span className="mil-suptitle mil-suptitle-2 mil-dark-soft mil-mb-30">Overviews</span>
               <h3 className="mil-mb-30">Our Solution</h3>
-              <p className="mil-mb-30 mil-dark-soft">
-                As one of <strong>SKYXHUB</strong>'s esteemed customers,
+              <p className="mil-mb-20 mil-dark-soft">
+                We had the privilege of working with <strong>NSAS Tourism</strong> to design and develop a professional, fully responsive website tailored to their brand and audience. The site was built with a robust back-end CMS content management system for admin and user management enabling the <strong>NSAS</strong> team to easily manage content, update travel packages, post news, and make changes without technical assistance with also including a B2B platform for their travel agency with group booking solutions with creating a dynamic route map for all wizz air flights from the UAE.
               </p>
+              <p className="mil-mb-20 mil-dark-soft">Our development process focused on:</p>
               <div className="row mil-mb-30">
-                <div className="col-xl-6">
-                  <ul className="mil-check-icon-list mil-mb-15">
+                <div className="col-xl-12">
+                  <ul className="mil-list mil-list-pills mil-light-soft flex-column">
                     {
                       keyPoints.map((point, index) => (
-                        <li key={index}>
-                          <img src="/img/icons/sm/12.svg" alt="icon" />
-                          <span className="mil-dark">{point}</span>
+                        <li key={index} className="mil-list-item max-width--content">
+                          <span className="icon"><i className="fa-solid fa-circle-check"></i></span>
+                          <span className="text">{point}</span>
                         </li>
                       ))
                     }
@@ -66,14 +65,11 @@ function ProjectDetails() {
                 </div>
               </div>
               <p className="mil-mb-20 mil-dark-soft">
-                NSAS Tourism leverages our  NDC-X platform to provide seamless travel experiences with real time inventory, dynamic pricing, and state of the art API connectivity. NSAS Tourism may expand internationally, improve their business tobusiness travel portal, and streamline operations by implementing.
+                
               </p>
-              <div className="project-image mil-mb-20">
-                <img src="/img/photo/partners.png" alt="NDC-X Project" />
+              <div className="project-image mil-mb-20 mil-bordered">
+                <img src="/img/partners/nsas-tourism-bg.jpg" alt="NDC-X Project" />
               </div>
-              <p className="mil-mb-20 mil-dark-soft">
-                Whitelabel travel solutions, which will make booking travel for their clients simpler and more effective. They have the competitive advantage required to maintain their lead in the constantly changing travel sector thanks to their implementation of travel technology solutions.
-              </p>
             </div>
           </div>
         </div>

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function HomeSpecialSection() {
@@ -55,7 +56,6 @@ function HomeSpecialSection() {
                   <span className="icon"><i className="fa-solid fa-circle-check"></i></span>
                   <span className="text">Multi-channel content access for sub-agents</span>
                 </li>
-                
                 <li className="mil-list-item">
                   <span className="icon"><i className="fa-solid fa-circle-check"></i></span>
                   <span className="text">Comprehensive reporting and sales optimization tools</span>
@@ -64,9 +64,9 @@ function HomeSpecialSection() {
               <h5 className="mil-light-soft mil-mb-30 mil-font-400">
                 This technology empowers our partners with efficient distribution and enhanced sales capabilities withn global expansion over 40,000 registered users under one of our most succssful product SKY x hub  
               </h5>
-              <a href="#." className="mil-button mil-border mil-light">
+              <Link href={'/contact'} className="mil-button mil-border mil-light">
                 <span>Start Now</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
